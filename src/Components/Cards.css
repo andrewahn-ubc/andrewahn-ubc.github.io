@@ -1,10 +1,11 @@
 .cards {
     padding: 4rem;
-    background: #fff;
+    background: #e0ffff;
   }
   
-  h1 {
-    text-align: center;
+  .cards > h1 {
+    text-align: left;
+    margin-left: 100px; 
   }
   
   .cards__container {
