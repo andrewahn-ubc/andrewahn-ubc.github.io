@@ -20,7 +20,7 @@
   }
   
   .navbar-logo {
-    color: #fff;
+    color: #e0ffff;
     justify-self: start;
     margin-left: 20px;
     cursor: pointer;
@@ -29,11 +29,12 @@
     display: flex;
     align-items: center;
   }
-  
-  .fa-typo3 {
-    margin-left: 0.5rem;
-    font-size: 1.8rem;
+
+  .fa-face-smile-wink {
+    color: #e0ffff;
+    margin-left: 10px;
   }
+
   
   .nav-menu {
     display: grid;
@@ -52,7 +53,7 @@
   }
   
   .nav-links {
-    color: #fff;
+    color: #e0ffff;
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -61,12 +62,12 @@
   }
   
   .nav-links:hover {
-    border-bottom: 4px solid #fff;
+    border-bottom: 4px solid #e0ffff;
     transition: all 0.2s ease-out;
   }
   
   .fa-bars {
-    color: #fff;
+    color: #e0ffff;
   }
   
   .nav-links-mobile {
@@ -112,7 +113,8 @@
     }
   
     .nav-links:hover {
-      background-color: #fff;
+      background-color: #e0ffff
+;
       color: #242424;
       border-radius: 0;
     }
@@ -135,7 +137,8 @@
     }
   
     .fa-times {
-      color: #fff;
+      color: #e0ffff
+;
       font-size: 2rem;
     }
   
@@ -148,14 +151,17 @@
       text-decoration: none;
       font-size: 1.5rem;
       background-color: transparent;
-      color: #fff;
+      color: #e0ffff
+;
       padding: 14px 20px;
-      border: 1px solid #fff;
+      border: 1px solid #e0ffff
+;
       transition: all 0.3s ease-out;
     }
   
     .nav-links-mobile:hover {
-      background: #fff;
+      background: #e0ffff
+;
       transition: 250ms;
     }
   }

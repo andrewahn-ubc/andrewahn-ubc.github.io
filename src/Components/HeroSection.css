@@ -7,29 +7,73 @@ video {
 }
 
 .hero-container {
-    background: url('../../public/images/img-home.jpg') center center/cover 
-    no-repeat; 
-    height: 100vh;
-    width: 100%;
+    background: #e0ffff;
     display: flex;
-    flex-direction: column; 
     justify-content: center;
-    align-items: center;
-    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
-    object-fit: contain;
+    height: auto;
 }
 
-.hero-container > h1 {
-    color: #fff;
+.hero-subcontainer {
+    background: #87ceeb;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    object-fit: contain;
+    margin: auto 100px auto 100px;
+    margin-top: 30px;
+    border-radius: 2%;
+}
+
+.hero-welcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: left;
+    margin-left: 40px;
+}
+
+.hero-welcome > h2 {
+    color: #242424;
     font-size: 100px;
     margin-top: -100px;
+    left: auto;
 }
 
-.hero-container > p {
-    color: #fff;
-    font-size: 40px;
-    margin-top: 8px;
+.hero-welcome > p {
+    color: #242424;
+    margin-top: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.hero-welcome-header {
+    font-size: 40px;
+}
+
+.hero-welcome-explain {
+    font-size: 18px;
+}
+
+.hero-intro > img {
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+
+.hero-intro {
+    margin: 50px 100px 50px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-intro > p {
+    text-align: center;
+    margin-top: 10px
 }
 
 .hero-btns {

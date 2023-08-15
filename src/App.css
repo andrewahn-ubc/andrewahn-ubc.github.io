@@ -6,8 +6,8 @@
 }
 
 .home,
-.services,
-.products,
+.resume,
+.blog,
 .sign-up {
   display: flex;
   height: 90vh;
@@ -16,7 +16,7 @@
   font-size: 3rem;
 }
 
-.services {
+.resume {
   background-image: url('../public/images/img-8.jpg');
   background-position: center;
   background-size: cover;
@@ -25,7 +25,7 @@
   font-size: 100px;
 }
 
-.products {
+.blog {
   background-image: url('../public/images/img-5.jpg');
   background-position: center;
   background-size: fill;

@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import './NavBar.css';
 import { Button } from './Button';
 
+
 function NavBar() {
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
@@ -30,8 +31,8 @@ function NavBar() {
             <div className="navbar-container">
 
               <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-                TRVL 
-                <i className="fab fa-typo3"></i>
+                Andrew Ahn
+                <i className="fa-regular fa-face-smile-wink" />
               </Link>
 
               <div className="menu-icon" onClick={handleClick}>
@@ -46,14 +47,14 @@ function NavBar() {
                 </li>
 
                 <li className="nav-item">
-                  <Link to='/services' className="nav-links" onClick={closeMobileMenu}>
-                    Services
+                  <Link to='/resume' className="nav-links" onClick={closeMobileMenu}>
+                    Resume
                   </Link>
                 </li>
 
                 <li className="nav-item">
-                  <Link to='/products' className="nav-links" onClick={closeMobileMenu}>
-                    Products
+                  <Link to='/blog' className="nav-links" onClick={closeMobileMenu}>
+                    Blog
                   </Link>
                 </li>
 
@@ -64,8 +65,6 @@ function NavBar() {
                 </li>
 
               </ul>
-
-              {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
             </div>
         </nav>
     </>
