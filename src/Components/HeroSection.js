@@ -1,8 +1,9 @@
 import React from 'react';
 import '../App.css';
-import { Button } from './Button';
+import { Button } from '../Subcomponents/Button';
 import './HeroSection.css';
 import myvideo from '../videos/video-2.mp4';
+import { Link } from 'react-router-dom';
 
 function HeroSection() {
    return (
@@ -30,6 +31,27 @@ function HeroSection() {
               <img src='images/sus_headshot.jpg' />
               <h1> Me</h1>
               <p >2nd-year Computer Science student at UBC</p>
+              <div className="hero-links">
+                    <Link className="linkedin" to='https://www.linkedin.com/in/andrewahn-ubc/'
+                        target='_blank'
+                        aria-label='linked'>
+                        <i className="fa-brands fa-linkedin"></i>
+                    </Link>
+
+                     <Link className="github" to='https://github.com/andrewahn-ubc'
+                        target='_blank'
+                         aria-label='github'>
+                         <i className="fa-brands fa-github"></i>
+                     </Link>
+
+                     <Link className="insta" to='https://www.instagram.com/andrew.4hn/'>
+                        <i className="fa-brands fa-instagram"></i>
+                     </Link>
+
+                     <a href="mailto:andrewahn21@gmail.com">
+                        <i className="fa-regular fa-envelope"></i>
+                    </a>
+              </div>
           </div>
         </div>
     </div>

@@ -5,7 +5,7 @@
   
   .cards > h1 {
     text-align: left;
-    margin-left: 100px; 
+    margin-left: 60px; 
   }
   
   .cards__container {
@@ -20,6 +20,7 @@
   .cards__wrapper {
     position: relative;
     margin: 50px 0 45px;
+    width: 100%;
   }
   
   .cards__items {

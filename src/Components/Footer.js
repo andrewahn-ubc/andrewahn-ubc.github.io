@@ -1,16 +1,16 @@
 import React from 'react';
-import { Button } from './Button';
+import { Button } from '../Subcomponents/Button';
 import './Footer.css';
 import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
     <div className='footer-container'>
-        <section className="footer-subscription">
-            <p className="footer-subscription-heading">
-                Join the newsletter to receive our best vacation deals.
+        <section className="footer-farewell">
+            <p className="footer-farewell-message">
+                Thanks for visiting!
             </p>
-            <p className="footer-subscription-text">
+            {/* <p className="footer-subscription-text">
                 You can unsubscribe at any time.
             </p>
             <div className="input-areas">
@@ -19,10 +19,10 @@ function Footer() {
                     placeholder='Your Email' />
                     <Button buttonStyle='btn--outline'>Subscribe</Button>
                 </form>
-            </div>
+            </div> */}
         </section>
 
-        <div className="footer-links">
+        {/* <div className="footer-links">
             <div className="footer-links-wrapper">
                 <div className="footer-links-items">
                     <h2>About Us</h2>
@@ -55,19 +55,16 @@ function Footer() {
                     <Link to='/'>Twitter</Link>
                 </div>
             </div>
-        </div>
+        </div> */}
         <section className="social-media">
             <div className="social-media-wrap">
 
-                <div className="footer-logo">
-                    <Link to='/' className="social-logo">
-                        TRVL <i className="fab fa-typo3" />
-                    </Link>
-                </div>
+                <small className="website-rights"> 
+                    <i class="fa-regular fa-copyright"></i> 
+                    Andrew Ahn 2023
+                </small>
 
-                <small className="website-rights">TRVL 2023</small>
-
-                <div className="social-icons">
+                {/* <div className="social-icons">
                     <Link className="social-icon-link facebook"
                     to='/' 
                     target='_blank'
@@ -94,8 +91,8 @@ function Footer() {
                     target='_blank'
                     aria-label='LinkedIn'>
                         <i className="fab fa-linkedin"></i>
-                    </Link>
-                </div>
+                    </Link> 
+                </div> */}
             </div>
         </section>
     </div>

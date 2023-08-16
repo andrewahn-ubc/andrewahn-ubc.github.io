@@ -30,6 +30,10 @@
     align-items: center;
   }
 
+  .navbar-logo:hover {
+    transform: scale(1.1);
+  }
+
   .fa-face-smile-wink {
     color: #e0ffff;
     margin-left: 10px;
