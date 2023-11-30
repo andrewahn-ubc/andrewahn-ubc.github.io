@@ -1,6 +1,8 @@
 import React from 'react'
 import CardItem from '../Subcomponents/CardItem';
 import './Cards.css';
+import { Link } from 'react-router-dom';
+
 
 function Cards() {
   return (
@@ -9,13 +11,14 @@ function Cards() {
            <div className="cards__container">
              <div className="cards__wrapper">
                 <ul className="cards__items">
-                    <a href="https://wordleclone-rofc7pu9f-andrewahn-ubcs-projects.vercel.app/" target="_blank"></a>
                     <CardItem  
-                        src='images/img-1.jpg'
-                        text='Work in progress...'
-                        label='Java?'
-                        path='/' 
+                        src='images/newWordleScreenshot.png'
+                        text='Wordle Clone!'
+                        label='JavsScript/HTML/CSS'
+                        path="https://wordleclone-rofc7pu9f-andrewahn-ubcs-projects.vercel.app/"
+                        target='_blank'
                     />
+                    
                     {/* <CardItem 
                         src='images/img-3.jpg'
                         text='Work in progress...'
