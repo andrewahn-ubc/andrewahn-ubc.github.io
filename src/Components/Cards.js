@@ -9,20 +9,21 @@ function Cards() {
            <div className="cards__container">
              <div className="cards__wrapper">
                 <ul className="cards__items">
+                    <a href="https://wordleclone-rofc7pu9f-andrewahn-ubcs-projects.vercel.app/" target="_blank"></a>
                     <CardItem  
                         src='images/img-1.jpg'
                         text='Work in progress...'
                         label='Java?'
                         path='/' 
                     />
-                    <CardItem 
+                    {/* <CardItem 
                         src='images/img-3.jpg'
                         text='Work in progress...'
                         label='Python?'
                         path='/' 
-                    />
+                    /> */}
                 </ul>
-                <ul className="cards__items">
+                {/* <ul className="cards__items">
                     <CardItem 
                         src='images/img-2.jpg'
                         text='Work in progress...'
@@ -41,7 +42,7 @@ function Cards() {
                         label='C++?'
                         path='/' 
                     />
-                </ul>
+                </ul> */}
             </div>
         </div>
     </div>

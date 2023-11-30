@@ -10,21 +10,12 @@ function HeroSection() {
     <div className='hero-container'>
         <div className="hero-subcontainer">
             <div className="hero-welcome">
-               {/* <video src={myvideo} autoPlay loop /> */}
               <h2>Hi</h2>
               <p className='hero-welcome-header'>Welcome to my website!</p>
               <p className='hero-welcome-explain'>My name is Andrew. On this page, you'll find my technical skills and 
              my highlighted projects. 
               </p>
               <p className='hero-welcome-explain'>Feel free to scroll!</p>
-             {/* <div className="hero-btns">
-                <Button className="btns" buttonStyle='btn--outline' buttonSize='btn--large'>
-                  GET STARTED
-                </Button>
-                <Button className="btns" buttonStyle='btn--primary' buttonSize='btn--large'>
-                  WATCH TRAILER <i className='far fa-play-circle' />
-                </Button> 
-              </div> */}
             </div>
 
           <div className="hero-intro">
