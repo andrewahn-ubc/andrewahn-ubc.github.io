@@ -18,6 +18,13 @@ function Cards() {
                         path="https://wordleclone-rofc7pu9f-andrewahn-ubcs-projects.vercel.app/"
                         target='_blank'
                     />
+                    <CardItem  
+                        src='images/connections.png'
+                        text='NYT Connections Clone'
+                        label='JavsScript/HTML/CSS'
+                        path="https://connections-nyt.vercel.app/"
+                        target='_blank'
+                    />
                     
                     {/* <CardItem 
                         src='images/img-3.jpg'
