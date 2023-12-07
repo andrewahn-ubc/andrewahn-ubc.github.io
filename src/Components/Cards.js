@@ -25,6 +25,13 @@ function Cards() {
                         path="https://connections-nyt.vercel.app/"
                         target='_blank'
                     />
+                    <CardItem  
+                        src='images/Screenshot 2023-12-07 085947.png'
+                        text='Personal Website (inception moment?)'
+                        label='React.js/CSS'
+                        path="https://ahntaegyoem-44s6ju4k9-andrewahn-ubcs-projects.vercel.app/"
+                        target='_blank'
+                    />
                     
                     {/* <CardItem 
                         src='images/img-3.jpg'
