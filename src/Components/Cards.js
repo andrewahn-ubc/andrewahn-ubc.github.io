@@ -25,41 +25,23 @@ function Cards() {
                         path="https://connections-nyt.vercel.app/"
                         target='_blank'
                     />
+                </ul>
+                <ul className="cards__items">
                     <CardItem  
                         src='images/Screenshot 2023-12-07 085947.png'
-                        text='Personal Website (inception moment?)'
+                        text='Personal Website'
                         label='React.js/CSS'
                         path="https://ahntaegyoem-44s6ju4k9-andrewahn-ubcs-projects.vercel.app/"
                         target='_blank'
                     />
-                    
-                    {/* <CardItem 
-                        src='images/img-3.jpg'
-                        text='Work in progress...'
-                        label='Python?'
-                        path='/' 
-                    /> */}
+                    <CardItem  
+                        src='images/fresherPhoto4.png'
+                        text='Fresher'
+                        label='Java/JUnit/Java Swing'
+                        path="https://github.com/andrewahn-ubc/Fresher"
+                        target='_blank'
+                    />
                 </ul>
-                {/* <ul className="cards__items">
-                    <CardItem 
-                        src='images/img-2.jpg'
-                        text='Work in progress...'
-                        label='JavaScript?'
-                        path='/' 
-                    />
-                    <CardItem 
-                        src='images/img-8.jpg'
-                        text='Work in progress...'
-                        label='React?'
-                        path='/' 
-                    />
-                    <CardItem 
-                        src='images/img-6.jpg'
-                        text='Work in progress...'
-                        label='C++?'
-                        path='/' 
-                    />
-                </ul> */}
             </div>
         </div>
     </div>
