@@ -24,18 +24,20 @@ function HeroSection() {
               <p >2nd-year Computer Science student at UBC</p>
               <div className="hero-links">
                     <Link className="linkedin" to='https://www.linkedin.com/in/andrewahn-ubc/'
-                        target='_blank'
-                        aria-label='linked'>
+                    target='_blank'
+                    aria-label='linked'>
                         <i className="fa-brands fa-linkedin"></i>
                     </Link>
 
                      <Link className="github" to='https://github.com/andrewahn-ubc'
-                        target='_blank'
-                         aria-label='github'>
+                      target='_blank'
+                      aria-label='github'>
                          <i className="fa-brands fa-github"></i>
                      </Link>
 
-                     <Link className="insta" to='https://www.instagram.com/andrew.4hn/'>
+                     <Link className="insta" to='https://www.instagram.com/andrew.4hn/'
+                     target='_blank'
+                     aria-label='insta'>
                         <i className="fa-brands fa-instagram"></i>
                      </Link>
 
