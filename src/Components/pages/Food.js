@@ -14,6 +14,8 @@ export default function Food() {
                     We're still amateurs, but I feel quite proud of our meals so I thought I'd share some of 
                     my favourites here :)
                 </h3>
+
+                <p>(please excuse our dirty stove)</p>
             </div>
             
             <ul className="foodList">
