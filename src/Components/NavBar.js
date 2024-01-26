@@ -30,11 +30,11 @@ function NavBar() {
                   </Link>
                 </li>
 
-                {/* <li className="nav-item">
+                <li className="nav-item">
                   <Link to='/food' className="nav-links">
                     Food
                   </Link>
-                </li> */}
+                </li>
 
               </ul>
             </div>

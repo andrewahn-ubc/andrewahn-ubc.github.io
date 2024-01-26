@@ -1,0 +1,33 @@
+.food {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.foodList {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 2vw 4vw;
+    width: 85vw;
+}
+
+.foodIntro {
+    width: 85vw;
+    margin: 4vw 2vw 2vw 2vw;
+    padding: 2vw 2vw 2vw 4vw;
+    background: #87ceeb;
+    color: #242424;
+    border-radius: 20px;
+}
+
+.foodIntro h1 {
+    font-size: 10vw;
+}
+
+.foodIntro h3 {
+    font-size: 2vw;
+    margin: 2vw 0vw;
+}

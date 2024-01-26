@@ -14,14 +14,12 @@ function Cards() {
                     <CardItem  
                         src='images/newWordleScreenshot.png'
                         text='Wordle Clone!'
-                        label='JavsScript/HTML/CSS'
                         path="https://wordleclone-rofc7pu9f-andrewahn-ubcs-projects.vercel.app/"
                         target='_blank'
                     />
                     <CardItem  
                         src='images/connections.png'
                         text='NYT Connections Clone'
-                        label='JavsScript/HTML/CSS'
                         path="https://connections-nyt.vercel.app/"
                         target='_blank'
                     />
@@ -30,14 +28,12 @@ function Cards() {
                     <CardItem  
                         src='images/Screenshot 2023-12-07 085947.png'
                         text='Personal Website'
-                        label='React.js/CSS'
                         path="https://ahntaegyoem-44s6ju4k9-andrewahn-ubcs-projects.vercel.app/"
                         target='_blank'
                     />
                     <CardItem  
                         src='images/fresherPhoto4.png'
                         text='Fresher'
-                        label='Java/JUnit/Java Swing'
                         path="https://github.com/andrewahn-ubc/Fresher"
                         target='_blank'
                     />
