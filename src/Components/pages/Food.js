@@ -8,7 +8,7 @@ export default function Food() {
         <div className='food'>
             <div className="foodIntro">
                 <h1>Food</h1>
-                <h3>
+                <h3 className="foodIntroSentence" >
                     Since moving out of dorms last year, my roommate and I have fallen in love with trying to 
                     make our favourite meals at home.
                     We're still amateurs, but I feel quite proud of our meals so I thought I'd share some of 

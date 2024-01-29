@@ -4,11 +4,14 @@ import { Button } from '../Subcomponents/Button';
 import './HeroSection.css';
 import myvideo from '../videos/video-2.mp4';
 import { Link } from 'react-router-dom';
+import { useBrightnessContext } from '../Hooks/useBrightnessContext';
 
 function HeroSection() {
+  const { brightness, setBrightness } = useBrightnessContext()
+
    return (
-    <div className='hero-container'>
-        <div className="hero-subcontainer">
+    <div className={brightness == 'light' ? 'hero-container' : 'hero-container-dark'}>
+        <div className={brightness == 'light' ? "hero-subcontainer" : 'hero-subcontainer-dark'}>
             <div className="hero-welcome">
               <h2>Hi</h2>
               <p className='hero-welcome-header'>Welcome to my website!</p>
