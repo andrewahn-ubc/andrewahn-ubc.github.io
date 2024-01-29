@@ -12,7 +12,7 @@ function HeroSection() {
    return (
     <div className={brightness == 'light' ? 'hero-container' : 'hero-container-dark'}>
         <div className={brightness == 'light' ? "hero-subcontainer" : 'hero-subcontainer-dark'}>
-            <div className="hero-welcome">
+            <div className={brightness == 'light' ? "hero-welcome" : "hero-welcome-dark"}>
               <h2>Hi</h2>
               <p className='hero-welcome-header'>Welcome to my website!</p>
               <p className='hero-welcome-explain'>My name is Andrew. On this page, you'll find my technical skills and 

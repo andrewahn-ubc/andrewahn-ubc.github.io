@@ -2,11 +2,14 @@ import React from 'react'
 import CardItem from '../Subcomponents/CardItem';
 import './Cards.css';
 import { Link } from 'react-router-dom';
+import { useBrightnessContext } from '../Hooks/useBrightnessContext';
 
 
 function Cards() {
+    const { brightness } = useBrightnessContext()
+
   return (
-    <div className='cards'>
+    <div className={brightness == 'light' ? 'cards' : 'cards-dark'}>
         <h1>Some of my projects:</h1>
            <div className="cards__container">
              <div className="cards__wrapper">
