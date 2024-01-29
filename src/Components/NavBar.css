@@ -42,21 +42,12 @@
   }
 
   .navbar-logo:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
   }
 
-  .fa-sun {
-    color: #e0ffff;
-    margin-left: 10px;
+  .navbar-logo-dark:hover {
+    transform: scale(1.05);
   }
-
-  .fa-moon {
-    color: white;
-    margin-left: 10px;
-  }
-
-  
-
   
   .nav-menu {
     display: grid;
@@ -155,3 +146,75 @@
       transform: translate(25%, 50%);
     }
   }
+
+.light-button {
+  background: #242424;
+  border: none;
+  color: #e0ffff;
+  position: absolute;
+  right: 32px;
+  top: 22px;
+
+  transition: all 0.5s;
+} 
+
+.dark-button {
+  background: #242424;
+  border: none;
+  color: white;
+  position: absolute;
+  right: 32px;
+  top: 22px;
+
+  transition: all 0.5s;
+}
+
+.toggle-container {
+  width: 80px;
+  height: 40px;
+  background: #e0ffff;
+  border-radius: 40px;
+  border: solid 2px white;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+
+}
+
+.toggle-container-dark {
+  width: 80px;
+  height: 40px;
+  background: #606060;
+  border-radius: 40px;
+  border: solid 2px white;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+
+}
+
+.fa-regular {
+  font-size: 24px;
+}
+
+.fa-sun {
+  color: #303030;
+  background: #87ceeb;
+  padding: 5px;
+  border-radius: 20px;
+  width: 36px;
+
+  margin-left: 0px;
+  transition: margin-left 1s ease;
+}
+
+.fa-moon {
+  color: #87ceeb;
+  background: #303030;
+  padding: 5px;
+  border-radius: 20px;
+  width: 36px;
+
+  margin-left: 40px;
+  transition: margin-left 1s ease;
+}
