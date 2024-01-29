@@ -1,0 +1,39 @@
+.skills-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding: 4vw 0vw 0vw 0vw;
+
+    background: #e0ffff;
+}
+
+.skills-wrapper > h1 {
+    padding-left: 9vw;
+    font-size: 32px;
+}
+
+.skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 2vw;
+}
+
+.skills-column {
+    padding: 2vw 3vw 0vw 3vw;
+    margin: 2vw;
+}
+
+.skills-column > h1 {
+    font-size: 32px;
+    margin-bottom: 24px;
+    color: #242424;
+}
+
+.skills-column > p {
+    font-size: 20px;
+    margin: 28px 0px;
+    color: #242424;
+}

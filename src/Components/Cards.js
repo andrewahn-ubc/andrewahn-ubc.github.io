@@ -10,7 +10,7 @@ function Cards() {
 
   return (
     <div className={brightness == 'light' ? 'cards' : 'cards-dark'}>
-        <h1>Some of my projects:</h1>
+        <h1>These are some of my projects:</h1>
            <div className="cards__container">
              <div className="cards__wrapper">
                 <ul className="cards__items">
