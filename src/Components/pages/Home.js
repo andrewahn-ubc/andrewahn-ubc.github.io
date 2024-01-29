@@ -4,10 +4,13 @@ import HeroSection from '../HeroSection';
 import Cards from '../Cards';
 import Footer from '../Footer';
 import Skills from '../Skills';
+import { useBrightnessContext } from '../../Hooks/useBrightnessContext';
 
 function Home() {
+  const { brightness } = useBrightnessContext()
+
   return (
-    <div className='home-wrapper'>
+    <div className={brightness == 'light' ? 'home-wrapper' : 'home-wrapper-dark'}>
       <HeroSection />
       <Skills />
       <Cards />

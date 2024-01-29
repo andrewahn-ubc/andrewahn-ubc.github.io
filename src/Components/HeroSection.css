@@ -7,14 +7,12 @@ video {
 }
 
 .hero-container {
-    background: #e0ffff;
     display: flex;
     justify-content: center;
     height: auto;
 }
 
 .hero-container-dark {
-    background: #404040;
     display: flex;
     justify-content: center;
     height: auto;
@@ -30,7 +28,7 @@ video {
     object-fit: contain;
     margin: auto 100px auto 100px;
     margin-top: 30px;
-    border-radius: 2%;
+    border-radius: 20px;
 }
 
 .hero-subcontainer-dark {
@@ -43,7 +41,7 @@ video {
     object-fit: contain;
     margin: auto 100px auto 100px;
     margin-top: 30px;
-    border-radius: 2%;
+    border-radius: 20px;
 }
 
 .hero-welcome {

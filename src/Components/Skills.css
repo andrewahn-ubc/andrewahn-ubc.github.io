@@ -4,8 +4,6 @@
     justify-content: center;
     align-items: left;
     padding: 4vw 0vw 0vw 0vw;
-
-    background: #e0ffff;
 }
 
 .skills-wrapper > h1 {
@@ -18,7 +16,21 @@
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
-    padding-top: 2vw;
+
+    margin: 2vw 8vw;
+    border-radius: 20px;
+}
+
+.skills-dark {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+
+    background: #606060;
+    margin: 4vw 10vw;
+    padding: 2vw;
+    border-radius: 20px;
 }
 
 .skills-column {

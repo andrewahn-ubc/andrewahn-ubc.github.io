@@ -18,6 +18,10 @@
   background: #e0ffff;
 }
 
+.home-wrapper-dark {
+  background: #404040;
+}
+
 .home-dark,
 .resume-dark {
   display: block;

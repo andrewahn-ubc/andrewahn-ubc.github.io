@@ -1,11 +1,14 @@
+import { useBrightnessContext } from "../Hooks/useBrightnessContext"
 import "./Skills.css"
 
 const Skills = () => {
+    const { brightness } = useBrightnessContext()
+
     return (
         <div className="skills-wrapper">
             <h1>These are the technologies I'm most familiar with:</h1>
 
-            <div className="skills" >
+            <div className={brightness == 'light' ? 'skills' : 'skills-dark'} >
                 <div className="skills-column" >
                     <h1>Languages</h1>
                     <p>JavaScript</p>
