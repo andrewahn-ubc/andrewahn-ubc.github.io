@@ -7,7 +7,7 @@ function CardItem(props) {
   return (
     <>
         <li className="cards__item">
-            <Link className={brightness == 'light' ? "cards__item__link" : "cards__item__link-dark"} to={props.path}>
+            <Link className={brightness == 'light' ? "cards__item__link" : "cards__item__link-dark"} to={props.path} target='_blank'>
                 <figure className="cards__item__pic-wrap" data-category={props.label}>
                     <img src={props.src} alt="Loading" className="cards__item__img" />
                 </figure>
