@@ -15,7 +15,7 @@
 }
 
 .home-wrapper {
-  background: #e0ffff;
+  background-image: linear-gradient(90deg, #bde0ff, #F0F8FF);
 }
 
 .home-wrapper-dark {
@@ -32,7 +32,7 @@
 }
 
 .resume {
-  background-color: #e0ffff;
+  background-image: linear-gradient(90deg, #bde0ff, #F0F8FF);
 }
 
 .resume-dark {

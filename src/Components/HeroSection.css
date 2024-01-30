@@ -19,7 +19,8 @@ video {
 }
 
 .hero-subcontainer {
-    background: #87ceeb;
+    /* background: #87ceeb; */
+    background-image: linear-gradient(90deg, #F0F8FF, #bde0ff);
     width: 80%;
     display: flex;
     flex-direction: row;

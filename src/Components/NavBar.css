@@ -172,7 +172,7 @@
 .toggle-container {
   width: 80px;
   height: 40px;
-  background: #e0ffff;
+  background: #F0F8FF;
   border-radius: 40px;
   border: solid 2px white;
   display: flex;
@@ -199,7 +199,7 @@
 
 .fa-sun {
   color: #303030;
-  background: #87ceeb;
+  background: #bde0ff;
   padding: 5px;
   border-radius: 20px;
   width: 36px;
