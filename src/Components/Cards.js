@@ -43,7 +43,7 @@ function Cards() {
                     <CardItem  
                         src='images/Screenshot 2023-12-07 085947.png'
                         text='Personal Website'
-                        path="https://my-first-website-bc173aa5e464.herokuapp.com/"
+                        path="https://github.com/andrewahn-ubc/first-react-website"
                         target='_blank'
                     />
                     <CardItem  
