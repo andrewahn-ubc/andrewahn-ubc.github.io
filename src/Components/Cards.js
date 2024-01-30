@@ -29,7 +29,7 @@ function Cards() {
                     <CardItem  
                         src='images/connections.png'
                         text='NYT Connections Clone'
-                        path="https://connections-nyt.vercel.app/"
+                        path="https://github.com/andrewahn-ubc/connectionsNYT"
                         target='_blank'
                     />  
                 </ul>
@@ -37,13 +37,13 @@ function Cards() {
                     <CardItem  
                         src='images/newWordleScreenshot.png'
                         text='Wordle Clone!'
-                        path="https://wordleclone-rofc7pu9f-andrewahn-ubcs-projects.vercel.app/"
+                        path="https://github.com/andrewahn-ubc/Wordle"
                         target='_blank'
                     />
                     <CardItem  
                         src='images/Screenshot 2023-12-07 085947.png'
                         text='Personal Website'
-                        path="https://ahntaegyoem-44s6ju4k9-andrewahn-ubcs-projects.vercel.app/"
+                        path="https://my-first-website-bc173aa5e464.herokuapp.com/"
                         target='_blank'
                     />
                     <CardItem  
