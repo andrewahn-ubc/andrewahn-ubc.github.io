@@ -1,11 +1,3 @@
-video {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    z-index: -1;
-}
-
 .hero-container {
     display: flex;
     justify-content: center;
@@ -27,8 +19,7 @@ video {
     justify-content: space-evenly;
     align-items: center;
     object-fit: contain;
-    margin: auto 100px auto 100px;
-    margin-top: 30px;
+    margin: 40px 100px auto 100px;
     border-radius: 20px;
 }
 
@@ -40,15 +31,13 @@ video {
     justify-content: space-evenly;
     align-items: center;
     object-fit: contain;
-    margin: auto 100px auto 100px;
-    margin-top: 30px;
+    margin: 40px 100px auto 100px;
     border-radius: 20px;
 }
 
 .hero-welcome {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
     align-items: left;
     margin-left: 40px;
 }
@@ -56,7 +45,7 @@ video {
 .hero-welcome-dark {
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: left;
     margin-left: 40px;
 }
@@ -69,7 +58,7 @@ video {
 }
 
 .hero-welcome-dark > h2 {
-    color: #101010;
+    color: #D3D3D3;
     font-size: 100px;
     margin-top: -100px;
     left: auto;
@@ -78,21 +67,15 @@ video {
 .hero-welcome > p {
     color: #242424;
     margin-top: 40px;
+    font-size: 28px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .hero-welcome-dark > p {
-    color: #101010;
+    color: #D3D3D3;
     margin-top: 40px;
+    font-size: 28px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-.hero-welcome-header {
-    font-size: 32px;
-}
-
-.hero-welcome-explain {
-    font-size: 18px;
 }
 
 .hero-intro > img {
@@ -114,10 +97,17 @@ video {
 .hero-intro-name > h1 {
     font-size: 22px;
     text-align: center;
-    font-weight: 400;
+    font-weight: 600;
 }
 
-.hero-intro-name {
+.hero-intro-name-dark > h1 {
+    font-size: 22px;
+    text-align: center;
+    font-weight: 400;
+    color: #D3D3D3;
+}
+
+.hero-intro-name, .hero-intro-name-dark {
     height: 50px;
 }
 
@@ -145,13 +135,20 @@ video {
 
 .fa-linkedin, .fa-github, .fa-instagram, .fa-envelope {
     font-size: 36px;
-    color: #242424;
     margin: 0px 15px;
 }
 
 .fa-brands:hover, .fa-envelope:hover {
     transform: scale(1.3);
     transition: all 0.1s ease-in-out;
+}
+
+.icon-light {
+    color: #242424;
+}
+
+.icon-dark {
+    color: #D3D3D3	;
 }
 
 

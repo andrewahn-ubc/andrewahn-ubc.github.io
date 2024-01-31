@@ -6,9 +6,23 @@
     padding: 4vw 0vw 0vw 0vw;
 }
 
+.skills-wrapper-dark {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding: 4vw 0vw 0vw 0vw;
+}
+
 .skills-wrapper > h1 {
     padding-left: 9vw;
     font-size: 32px;
+}
+
+.skills-wrapper-dark > h1 {
+    padding-left: 9vw;
+    font-size: 32px;
+    color: #C0C0C0;
 }
 
 .skills {
@@ -36,7 +50,7 @@
 
 }
 
-.skills-column {
+.skills-column, .skills-column-dark {
     padding: 2vw 3vw 0vw 3vw;
     margin: 2vw;
 }
@@ -51,4 +65,17 @@
     font-size: 20px;
     margin: 28px 0px;
     color: #242424;
+}
+
+
+.skills-column-dark > h1 {
+    font-size: 32px;
+    margin-bottom: 24px;
+    color: #D3D3D3	;
+}
+
+.skills-column-dark > p {
+    font-size: 20px;
+    margin: 28px 0px;
+    color: #D3D3D3	;
 }
