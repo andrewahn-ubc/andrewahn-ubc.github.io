@@ -50,16 +50,27 @@
     margin-left: 40px;
 }
 
+@keyframes slidein {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 100%;
+    }
+}
+
 .hero-welcome > h2 {
     color: #242424;
     font-size: 100px;
     left: auto;
+    animation: 1s slidein;
 }
 
 .hero-welcome-dark > h2 {
     color: #D3D3D3;
     font-size: 100px;
     left: auto;
+    animation-name: slidein;
 }
 
 .hero-welcome > p {
