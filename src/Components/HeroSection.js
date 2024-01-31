@@ -1,11 +1,7 @@
-import React, { useState } from 'react';
 import '../App.css';
-import { Button } from '../Subcomponents/Button';
 import './HeroSection.css';
-import myvideo from '../videos/video-2.mp4';
 import { Link } from 'react-router-dom';
 import { useBrightnessContext } from '../Hooks/useBrightnessContext';
-import Typist from "react-typist";
 import { ReactTyped } from "react-typed";
 
 function HeroSection() {
