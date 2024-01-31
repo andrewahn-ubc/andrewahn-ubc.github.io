@@ -5,7 +5,7 @@ export const BrightnessContext = createContext()
 
 
 export const BrightnessContextProvider = ({ children }) => {
-    const [brightness, setBrightness] = useState('dark')
+    const [brightness, setBrightness] = useState('light')
 
     return (
         <BrightnessContext.Provider value={{brightness , setBrightness}} >

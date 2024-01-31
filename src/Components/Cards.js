@@ -41,7 +41,7 @@ function Cards() {
                         target='_blank'
                     />
                     <CardItem  
-                        src='images/Screenshot 2023-12-07 085947.png'
+                        src='images/new-website.png'
                         text='Personal Website'
                         path="https://github.com/andrewahn-ubc/first-react-website"
                         target='_blank'
