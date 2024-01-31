@@ -17,17 +17,23 @@ function HeroSection() {
             <div className={brightness == 'light' ? "hero-welcome" : "hero-welcome-dark"}>
               <h2>Hi!</h2>
               <p className='hero-welcome-header'>
-                I'm Andrew (he/him), a 2nd-year computer science student at UBC. 
                 <br></br>
                 <br></br>
-                Scroll to check out my portfolio :)
+                I'm Andrew (he/him), a 2nd-year undergrad at UBC Computer Science. 
+                <br></br>
+                <br></br>
+              </p>
+              <p>
+                <br></br>
+                Scroll along to see more!
               </p>
             </div>
 
           <div className="hero-intro">
               <img src='images/sus_headshot.jpg' />
               <div className={brightness == 'light' ? "hero-intro-name" : "hero-intro-name-dark"}>
-                <h1>My name is: <br></br>
+                <h1>My name is: <br></br></h1>
+                <h2>
                 <ReactTyped
                   strings={["안태겸 (Ahn-Tae-Gyoem)", "Andrew Ahn"]}
                   typeSpeed={100}
@@ -36,7 +42,7 @@ function HeroSection() {
                   cursorChar="|"
                   showCursor={true}
                 />
-                </h1>
+                </h2>
                 
               </div>
               <div className="hero-links">

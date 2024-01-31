@@ -1,9 +1,9 @@
 .cards {
-    padding: 4rem;
+    padding: 0rem 2rem 2rem 2rem;
   }
 
   .cards-dark {
-    padding: 4rem;
+    padding: 0rem 2rem 2rem 2rem;
   }
   
   .cards > h1 {
