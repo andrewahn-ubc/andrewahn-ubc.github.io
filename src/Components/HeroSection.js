@@ -25,7 +25,7 @@ function HeroSection() {
           <div className="hero-intro">
               <img src='images/sus_headshot.jpg' />
               <div className="hero-intro-name">
-                <h1>My name is{" "}
+                <h1>My name is: <br></br>
                 <ReactTyped
                   strings={["안태겸", "Ahn-Tae-Gyoem", "Andrew (he/him)"]}
                   typeSpeed={100}

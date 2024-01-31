@@ -11,7 +11,7 @@
     flex-direction: column;
     justify-items: center;
     align-items: center;
-    background: #404040;
+    background-image: linear-gradient(90deg, #5c5470, #352f44);
 }
 
 .foodList {
@@ -36,7 +36,7 @@
     width: 85vw;
     margin: 4vw 2vw 2vw 2vw;
     padding: 2vw 2vw 2vw 4vw;
-    background: #242424;
+    background-image: linear-gradient(90deg, #352f44, #5c5470);
     color: white;
     border-radius: 20px;
 }

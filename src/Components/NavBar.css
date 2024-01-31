@@ -172,7 +172,7 @@
 .toggle-container {
   width: 80px;
   height: 40px;
-  background: #F0F8FF;
+  background: #89CFF0;
   border-radius: 40px;
   border: solid 2px white;
   display: flex;
@@ -181,10 +181,10 @@
 
 }
 
-.toggle-container-dark {
+.toggle-container-dark {  
   width: 80px;
   height: 40px;
-  background: #606060;
+  background: #5c5470;
   border-radius: 40px;
   border: solid 2px white;
   display: flex;
@@ -198,8 +198,8 @@
 }
 
 .fa-sun {
-  color: #303030;
-  background: #bde0ff;
+  color: #FFEA00;
+  background: #6495ED;
   padding: 5px;
   border-radius: 20px;
   width: 36px;
@@ -210,7 +210,7 @@
 
 .fa-moon {
   color: #87ceeb;
-  background: #303030;
+  background: #352f44;
   padding: 5px;
   border-radius: 20px;
   width: 36px;
