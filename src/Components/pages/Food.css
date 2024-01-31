@@ -43,11 +43,13 @@
 
 .foodIntro h1 {
     font-size: 10vw;
+    font-weight: 600;
 }
 
 .foodIntro h3 {
     margin: 2vw 0vw;
     font-size: 2vw;
+    font-weight: 400;
 }
 
 .foodIntro-dark h1 {
@@ -57,4 +59,5 @@
 .foodIntro-dark h3 {
     margin: 2vw 0vw;
     font-size: 2vw;
+    font-weight: 400;
 }
