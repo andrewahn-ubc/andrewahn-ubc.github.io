@@ -29,7 +29,7 @@ function Cards() {
                     <CardItem  
                         src='images/connections.png'
                         text='NYT Connections Clone'
-                        path="https://github.com/andrewahn-ubc/connectionsNYT"
+                        path="https://connections-nyt-25cdfbc7150a.herokuapp.com/"
                         target='_blank'
                     />  
                 </ul>

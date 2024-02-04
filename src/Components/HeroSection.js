@@ -10,7 +10,7 @@ function HeroSection() {
    return (
     <div className={brightness == 'light' ? 'hero-container' : 'hero-container-dark'}>
         <div className={brightness == 'light' ? "hero-subcontainer" : 'hero-subcontainer-dark'}>
-            <div className={brightness == 'light' ? "hero-welcome" : "hero-welcome-dark"}>
+            {/* <div className={brightness == 'light' ? "hero-welcome" : "hero-welcome-dark"}>
               <h2>Hi!</h2>
               <p className='hero-welcome-header'>
                 <br></br>
@@ -23,7 +23,7 @@ function HeroSection() {
                 <br></br>
                 Scroll along to see more!
               </p>
-            </div>
+            </div> */}
 
           <div className="hero-intro">
               <img src='images/sus_headshot.jpg' />
