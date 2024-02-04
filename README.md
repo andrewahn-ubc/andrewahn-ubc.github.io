@@ -2,6 +2,6 @@
 
 To run, run "npm start" in terminal.
 
-## TODOs
+## TODO
 - Making it mobile-responsive
 - Restyling the hero section to be more visually appealing
