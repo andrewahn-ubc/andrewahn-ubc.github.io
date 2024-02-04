@@ -37,7 +37,7 @@ function Cards() {
                     <CardItem  
                         src='images/newWordleScreenshot.png'
                         text='Wordle Clone!'
-                        path="https://github.com/andrewahn-ubc/Wordle"
+                        path="https://wordleclone-3314286f69fb.herokuapp.com/"
                         target='_blank'
                     />
                     <CardItem  
