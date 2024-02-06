@@ -24,7 +24,8 @@
 
 .home-dark,
 .resume-dark {
-  display: block;
+  display: flex;
+  flex-direction: row;
   height: auto;
   align-items: center;
   justify-content: center;
@@ -33,17 +34,25 @@
 
 .resume {
   background-image: linear-gradient(90deg, #bde0ff, #F0F8FF);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .resume-dark {
   background-image: linear-gradient(90deg, #2a2438, #5c5470);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .document {
-  margin-left: 190px;
-  margin-top: 30px;
-  margin-bottom: 20px;
+  margin-top: 4vmin;
+  margin-bottom: 4vmin; 
   border: none;
+  width: 80%;
 }
 
 /* width */
