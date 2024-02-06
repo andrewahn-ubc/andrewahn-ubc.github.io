@@ -19,8 +19,8 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 2vw 4vw;
-    width: 85vw;
+    margin: 2vmin 4vmin;
+    width: 170vmin;
 }
 
 .foodIntro {
@@ -60,4 +60,34 @@
     margin: 2vw 0vw;
     font-size: 2vw;
     font-weight: 400;
+}
+
+@media screen and (max-width: 1900px){
+    .foodList {
+        width: 150vmin;
+    }
+}
+
+@media screen and (max-width: 1700px){
+    .foodList {
+        width: 130vmin;
+    }
+}
+
+@media screen and (max-width: 1500px){
+    .foodList {
+        width: 110vmin;
+    }
+}
+
+@media screen and (max-width: 1300px){
+    .foodList {
+        width: 90vmin;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .foodList {
+        width: 70vmin;
+    }
 }

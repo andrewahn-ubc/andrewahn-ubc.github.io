@@ -10,6 +10,7 @@ function NavBar() {
   const { brightness, setBrightness } = useBrightnessContext()
 
   const handleClick = () => {
+    switchMenu()
     if (brightness == 'light') {
       setBrightness('dark')
     } else {
@@ -18,6 +19,7 @@ function NavBar() {
   }
 
   const switchMenu = () => {
+
     if (button) {
       setButton(false)
     } else {
@@ -42,19 +44,19 @@ function NavBar() {
 
               <ul className={button ? "nav-menu-active" : "nav-menu"}>
                 <li className="nav-item">
-                  <Link to='/' className={brightness == 'light' ? "nav-links" : "nav-links-dark"}>
+                  <Link to='/' className={brightness == 'light' ? "nav-links" : "nav-links-dark"} onClick={switchMenu}>
                     Home
                   </Link>
                 </li>
 
                 <li className="nav-item">
-                  <Link to='/resume' className={brightness == 'light' ? "nav-links" : "nav-links-dark"}>
+                  <Link to='/resume' className={brightness == 'light' ? "nav-links" : "nav-links-dark"} onClick={switchMenu}>
                     Resume
                   </Link>
                 </li>
 
                 <li className="nav-item">
-                  <Link to='/food' className={brightness == 'light' ? "nav-links" : "nav-links-dark"}>
+                  <Link to='/food' className={brightness == 'light' ? "nav-links" : "nav-links-dark"} onClick={switchMenu}>
                     Food
                   </Link>
                 </li>
