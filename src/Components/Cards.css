@@ -139,3 +139,10 @@
       margin-bottom: 2rem;
     }
   }
+
+  @media only screen and (max-width: 500px) {
+    .cards > h1, .cards-dark > h1 {
+      margin: 0vmin 1vmin 1vmin 1vmin;
+      font-size: 8vmin;
+    }
+  }

@@ -94,7 +94,7 @@
 }
 
 .hero-intro {
-    margin: 50px 100px 100px 50px;
+    margin: 50px 50px 100px 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -345,5 +345,41 @@
 @media screen and (max-width: 500px) {
     .hero-welcome {
         margin-top: 75px;
+        display: none;
+    }
+
+    .hero-welcome-dark {
+        margin-top: 75px;
+        display: none;
+    }
+
+    .hero-intro-name, .hero-intro-name-dark {
+        height: 15vmin;
+    }
+
+    .hero-intro {
+        margin: 15vmin 30vmin 30vmin 30vmin;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-intro > img {
+        border-radius: 100%;
+        width: 50vmin;
+        height: 50vmin;
+        margin-bottom: 20px;
+        object-fit: cover;
+    }
+
+    .fa-linkedin, .fa-github, .fa-instagram, .fa-envelope {
+        font-size: 10vmin;
+        margin: 0px 15px;
+    }
+
+    .hero-links {
+        margin-top: 10px;
+        margin-bottom: -100px;
     }
 }

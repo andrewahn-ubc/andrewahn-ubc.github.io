@@ -6,7 +6,7 @@ import { useBrightnessContext } from '../Hooks/useBrightnessContext';
 
 
 function NavBar() {
-  const [button, setButton] = useState(true);
+  const [button, setButton] = useState(false);
   const { brightness, setBrightness } = useBrightnessContext()
 
   const handleClick = () => {
@@ -14,6 +14,14 @@ function NavBar() {
       setBrightness('dark')
     } else {
       setBrightness('light')
+    }
+  }
+
+  const switchMenu = () => {
+    if (button) {
+      setButton(false)
+    } else {
+      setButton(true)
     }
   }
 
@@ -27,7 +35,11 @@ function NavBar() {
                 Andrew Ahn
               </Link>
 
-              <ul className="nav-menu">
+              <button className={brightness == 'light' ? 'light-menu-button' : 'dark-menu-button'} onClick={switchMenu}>
+                <i class={brightness == 'light' ? "fa-solid fa-bars" : "fa-solid fa-bars"}></i>
+              </button>
+
+              <ul className={button ? "nav-menu" : "nav-menu-active"}>
                 <li className="nav-item">
                   <Link to='/' className={brightness == 'light' ? "nav-links" : "nav-links-dark"}>
                     Home
