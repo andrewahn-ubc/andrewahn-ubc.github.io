@@ -36,10 +36,11 @@ function NavBar() {
               </Link>
 
               <button className={brightness == 'light' ? 'light-menu-button' : 'dark-menu-button'} onClick={switchMenu}>
-                <i class={brightness == 'light' ? "fa-solid fa-bars" : "fa-solid fa-bars"}></i>
+                {/* <i class="fa-solid fa-plus"></i> */}
+                <h1>{button ? "<" : ">"}</h1>
               </button>
 
-              <ul className={button ? "nav-menu" : "nav-menu-active"}>
+              <ul className={button ? "nav-menu-active" : "nav-menu"}>
                 <li className="nav-item">
                   <Link to='/' className={brightness == 'light' ? "nav-links" : "nav-links-dark"}>
                     Home

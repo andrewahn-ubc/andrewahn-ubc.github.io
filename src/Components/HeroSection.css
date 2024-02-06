@@ -194,6 +194,13 @@
         margin-top: 9px;
         font-size: 18px;
     }
+
+    .hero-intro-name > h1, .hero-intro-name-dark > h1 {
+        font-size: 4vmin;
+    }
+    .hero-intro-name > h2, .hero-intro-name-dark > h2 {
+        font-size: 3vmin;
+    }
 }
 
 @media screen and (max-width: 1100px) {
@@ -295,7 +302,27 @@
         margin-right: 40px;
     }
     .fa-linkedin, .fa-github, .fa-instagram, .fa-envelope {
-        font-size: 20px;
+        font-size: 4vminpx;
+    }
+
+    .hero-intro-name > h1, .hero-intro-name-dark > h1 {
+        font-size: 3vmin;
+    }
+    .hero-intro-name > h2, .hero-intro-name-dark > h2 {
+        font-size: 2vmin;
+    }
+
+    .hero-links {
+        margin-top: 2vmin;
+        margin-bottom: -80px;
+    }
+
+    .hero-intro-name, .hero-intro-name-dark {
+        height: 6vmin;
+    }
+
+    .hero-welcome, .hero-welcome-dark {
+        display: none;
     }
 }
 
@@ -336,9 +363,6 @@
 @media screen and (max-width: 600px) {
     .hero-welcome {
         margin-top: 50px;
-    }
-    .fa-linkedin, .fa-github, .fa-instagram, .fa-envelope {
-        font-size: 15px;
     }
 }
 
@@ -381,5 +405,12 @@
     .hero-links {
         margin-top: 10px;
         margin-bottom: -100px;
+    }
+
+    .hero-intro-name > h1, .hero-intro-name-dark > h1 {
+        font-size: 6vmin;
+    }
+    .hero-intro-name > h2, .hero-intro-name-dark > h2 {
+        font-size: 4vmin;
     }
 }

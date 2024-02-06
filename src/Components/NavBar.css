@@ -188,33 +188,33 @@
     position: absolute;
     top: 80px;
     padding-bottom: 25%;
-    left: 0%;
     opacity: 1;
-    transition: all 0.5s ease-in-out;
+    transition: left 0.5s ease-in-out;
+    background: #242424;
   }
 
   .light-menu-button, .dark-menu-button {
     display: block;
-    position: fixed;
-    top: 8.5vmin;
-    right: 8.5vmin;
+    position: relative;
+    top: 1vmin;
+    left: 40vmin;
     border: none;
     margin: 0;
     padding: 0;
   }
 
-  .fa-bars {
+  .light-menu-button > h1, .dark-menu-button > h1 {
     background: #242424;
-    border: none;
-    margin: 0;
     color: white;
-  }
-
-  .nav-menu {
-    left: 0%;
+    font-size: 8vmin;
+    padding: 0px 10px;
   }
 
   .nav-menu-active {
+    left: 0%;
+  }
+
+  .nav-menu {
     left: -100%;
   }
 
