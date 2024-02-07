@@ -51,7 +51,7 @@
   transform: scale(1.05);
 }
 
-.nav-menu {
+.nav-menu, .nav-menu-active {
   display: grid;
   background: #242424;
   grid-template-columns: repeat(4, auto);
@@ -196,7 +196,7 @@
   .light-menu-button, .dark-menu-button {
     display: block;
     position: relative;
-    top: 1vmin;
+    top: 0.5vmin;
     left: 40vmin;
     border: none;
     margin: 0;
@@ -206,8 +206,9 @@
   .light-menu-button > h1, .dark-menu-button > h1 {
     background: #242424;
     color: white;
-    font-size: 8vmin;
+    font-size: 40px;
     padding: 0px 10px;
+    transition: all 1s ease-in-out;
   }
 
   .nav-menu-active {
