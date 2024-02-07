@@ -3,5 +3,5 @@
 To run, run "npm start" in terminal.
 
 ## TODO
-- Making it mobile-responsive
+- Fixing the menu bug on resume and food pages
 - Restyling the hero section to be more visually appealing
