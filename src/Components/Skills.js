@@ -1,6 +1,7 @@
 import { useBrightnessContext } from "../Hooks/useBrightnessContext"
 import "./Skills.css"
 
+// My "technical skills" section.
 const Skills = () => {
     const { brightness } = useBrightnessContext()
 

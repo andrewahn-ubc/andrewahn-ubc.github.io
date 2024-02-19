@@ -9,7 +9,7 @@ function HeroSection() {
   const { brightness } = useBrightnessContext()
 
    return (
-    <div className={brightness == 'light' ? 'hero-container' : 'hero-container-dark'}>
+    <div className='hero-container'>
         <div className={brightness == 'light' ? "hero-subcontainer" : 'hero-subcontainer-dark'}>
             <div className={brightness == 'light' ? "hero-welcome" : "hero-welcome-dark"}>
               <h2>Hi!</h2>

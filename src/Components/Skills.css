@@ -1,4 +1,4 @@
-.skills-wrapper {
+.skills-wrapper, .skills-wrapper-dark {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -6,26 +6,16 @@
     padding: 4vw 0vw 0vw 0vw;
 }
 
-.skills-wrapper-dark {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: left;
-    padding: 4vw 0vw 0vw 0vw;
-}
-
-.skills-wrapper > h1 {
+.skills-wrapper > h1, .skills-wrapper-dark > h1  {
     padding-left: 9vw;
     font-size: 32px;
 }
 
 .skills-wrapper-dark > h1 {
-    padding-left: 9vw;
-    font-size: 32px;
     color: #C0C0C0;
 }
 
-.skills {
+.skills, .skills-dark {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -34,19 +24,6 @@
     margin: 4vw 10vw;
     padding: 2vw;
     border-radius: 20px;
-}
-
-.skills-dark {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-
-    margin: 4vw 10vw;
-    padding: 2vw;
-    border-radius: 20px;
-
-
 }
 
 .skills-column, .skills-column-dark {
@@ -54,33 +31,27 @@
     margin: 2vw;
 }
 
-.skills-column > h1 {
+.skills-column > h1, .skills-column-dark > h1 {
     font-size: 32px;
     margin-bottom: 24px;
     color: #242424;
 }
-
-.skills-column > p {
-    font-size: 20px;
-    margin: 28px 0px;
-    color: #242424;
-}
-
 
 .skills-column-dark > h1 {
-    font-size: 32px;
-    margin-bottom: 24px;
     color: #D3D3D3	;
 }
 
-.skills-column-dark > p {
+.skills-column > p, .skills-column-dark > p {
     font-size: 20px;
     margin: 28px 0px;
+    color: #242424;
+}
+
+.skills-column-dark > p {
     color: #D3D3D3	;
 }
 
 @media screen and (max-width: 500px) {
-
     .skills-wrapper > h1, .skills-wrapper-dark > h1 {
         font-size: 8vmin;
         margin: 6vmin 4vmin 2vmin 1vmin;
