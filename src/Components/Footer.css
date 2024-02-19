@@ -18,11 +18,11 @@
     color: #fff;
 }
 
-.footer-farewell-message {
+.footer-farewell > p {
     font-size: 24px;
 }
 
-.social-media-wrap {
+.website-rights {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -32,13 +32,13 @@
     margin: 20px auto 40px auto;
 }
 
-.fa-copyright {
-    margin-right: 10px;
-    font-size: 12px;
-}
-
-.website-rights {
+.website-rights > small {
     color: #fff;
     margin-bottom: 16px;
     margin-right: 0px;
+}
+
+.fa-copyright {
+    margin-right: 10px;
+    font-size: 12px;
 }
