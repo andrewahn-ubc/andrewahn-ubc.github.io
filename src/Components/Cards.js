@@ -10,9 +10,9 @@ function Cards() {
     return (
         <div className={brightness == 'light' ? 'cards' : 'cards-dark'}>
             <h1>My projects:</h1>
-            <div className="cards__container">
-                <div className="cards__wrapper">
-                    <ul className="cards__items">
+            <div className="cards-container">
+                <div className="cards-wrapper">
+                    <ul className="cards-items">
                         <CardItem  
                             src='images/logo.png'
                             text='OurBoard'
@@ -33,7 +33,7 @@ function Cards() {
                         />  
                     </ul>
 
-                    <ul className="cards__items">
+                    <ul className="cards-items">
                         <CardItem  
                             src='images/newWordleScreenshot.png'
                             text='Wordle Clone!'

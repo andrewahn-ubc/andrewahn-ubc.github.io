@@ -1,7 +1,7 @@
 import { useContext } from "react"
 import { BrightnessContext } from "../Context/BrightnessContext" 
 
-
+// Custom hook for abstracting the usage of "useContext" because it's annoying.
 export const useBrightnessContext = () => {
     const context = useContext(BrightnessContext)
 
