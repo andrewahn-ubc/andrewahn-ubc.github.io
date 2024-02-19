@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { useBrightnessContext } from '../Hooks/useBrightnessContext';
 import { ReactTyped } from "react-typed";
 
+// The first component the user sees in the home page.
 function HeroSection() {
   const { brightness } = useBrightnessContext()
 
@@ -27,6 +28,7 @@ function HeroSection() {
 
           <div className="hero-intro">
               <img src='images/sus_headshot.jpg' />
+              {/* My name being typed letter by letter! */}
               <div className={brightness == 'light' ? "hero-intro-name" : "hero-intro-name-dark"}>
                 <h1>My name is: <br></br></h1>
                 <h2>

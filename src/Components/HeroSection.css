@@ -1,17 +1,10 @@
-.hero-container {
+.hero-container, .hero-container-dark {
     display: flex;
     justify-content: center;
     height: auto;
 }
 
-.hero-container-dark {
-    display: flex;
-    justify-content: center;
-    height: auto;
-}
-
-.hero-subcontainer {
-    /* background: #F0F8FF; */
+.hero-subcontainer, .hero-subcontainer-dark {
     background-image: linear-gradient(90deg, #F0F8FF, #bde0ff);
     width: 80%;
     display: flex;
@@ -25,55 +18,26 @@
 
 .hero-subcontainer-dark {
     background-image: linear-gradient(90deg, #5c5470, #352f44);
-    width: 80%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    object-fit: contain;
-    margin: 40px 100px auto 100px;
-    border-radius: 20px;
 }
 
-.hero-welcome {
+.hero-welcome, .hero-welcome-dark {
     display: flex;
     flex-direction: column;
     align-items: left;
     margin-left: 40px;
 }
 
-.hero-welcome-dark {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: left;
-    margin-left: 40px;
-}
-
-@keyframes slidein {
-    from {
-        width: 0%;
-    }
-    to {
-        width: 100%;
-    }
-}
-
-.hero-welcome > h2 {
+.hero-welcome > h2, .hero-welcome-dark > h2 {
     color: #242424;
     font-size: 100px;
     left: auto;
-    animation: 1s slidein;
 }
 
 .hero-welcome-dark > h2 {
     color: #D3D3D3;
-    font-size: 100px;
-    left: auto;
-    animation-name: slidein;
 }
 
-.hero-welcome > p {
+.hero-welcome > p, .hero-welcome-dark > p {
     color: #242424;
     font-size: 22px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -81,16 +45,6 @@
 
 .hero-welcome-dark > p {
     color: #D3D3D3;
-    font-size: 22px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-.hero-intro > img {
-    border-radius: 100%;
-    width: 280px;
-    height: 280px;
-    margin-bottom: 20px;
-    object-fit: cover;
 }
 
 .hero-intro {
@@ -101,34 +55,36 @@
     align-items: center;
 }
 
-.hero-intro-name > h1 {
+.hero-intro > img {
+    border-radius: 100%;
+    width: 280px;
+    height: 280px;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+
+.hero-intro-name, .hero-intro-name-dark {
+    height: 50px;
+}
+
+.hero-intro-name > h1, .hero-intro-name-dark > h1 {
     font-size: 22px;
     text-align: center;
     font-weight: 600;
 }
 
 .hero-intro-name-dark > h1 {
-    font-size: 22px;
-    text-align: center;
-    font-weight: 600;
     color: #D3D3D3;
 }
 
-.hero-intro-name > h2 {
+.hero-intro-name > h2, .hero-intro-name-dark > h2 {
     font-size: 22px;
     text-align: center;
     font-weight: 400;
 }
 
 .hero-intro-name-dark > h2 {
-    font-size: 22px;
-    text-align: center;
-    font-weight: 400;
     color: #D3D3D3;
-}
-
-.hero-intro-name, .hero-intro-name-dark {
-    height: 50px;
 }
 
 .hero-btns {
@@ -143,14 +99,11 @@
     margin-left: 4px;
 }
 
-
-
 .hero-links {
     display: flex;
     justify-content: space-evenly;
     width: 80%;
-    margin-top: 20px;
-    margin-bottom: -80px;
+    margin: 20px auto -80px auto;
 }
 
 .fa-linkedin, .fa-github, .fa-instagram, .fa-envelope {
@@ -194,7 +147,6 @@
         margin-top: 9px;
         font-size: 18px;
     }
-
     .hero-intro-name > h1, .hero-intro-name-dark > h1 {
         font-size: 4vmin;
     }
@@ -286,6 +238,9 @@
     .hero-welcome-explain {
         font-size: 12px;
     }
+    .hero-intro {
+        margin-right: 40px;
+    }
     .hero-intro > img {
         width: 150px;
         height: 150px;
@@ -297,9 +252,6 @@
     .hero-intro > p {
         margin-top: 7px;
         font-size: 12px;
-    }
-    .hero-intro {
-        margin-right: 40px;
     }
     .fa-linkedin, .fa-github, .fa-instagram, .fa-envelope {
         font-size: 4vminpx;

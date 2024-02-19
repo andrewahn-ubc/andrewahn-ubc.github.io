@@ -1,8 +1,7 @@
 import React from 'react';
-import { Button } from '../Subcomponents/Button';
 import './Footer.css';
-import { Link } from 'react-router-dom';
 
+// Footer section.
 function Footer() {
   return (
     <div className='footer-container'>
