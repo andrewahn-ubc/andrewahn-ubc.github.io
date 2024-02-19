@@ -3,5 +3,5 @@
 To run, run "npm start" in terminal.
 
 ## TODO
-- Fixing the menu bug on resume and food pages
-- Restyling the hero section to be more visually appealing
+- Restyling the hero section to be more visually appealing.
+- Adding click->description funcitonality to card items.
