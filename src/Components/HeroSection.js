@@ -20,7 +20,7 @@ function HeroSection() {
                 <br></br>
                 <br></br>
               </p>
-              <p>
+              <p className='hero-welcome-details'>
                 <br></br>
                 Scroll along to see more!
               </p>

@@ -4,27 +4,88 @@
     height: auto;
 }
 
-@keyframes hero-text-animation {
+@keyframes hero-intro {
     0% {
-        margin-top: -15vw;
-        opacity: 0.2;
+        margin-left: -66%;
+        margin-bottom: 10%;
     }
-    25% {
-    }
-    50% {
-    }
-    75% {
+    70% {
+        margin-left: -66%;
+        margin-bottom: 10%;
     }
     100% {
-        margin-top: 0vw;
+        margin-right: 5%;
+        margin-bottom: 10%;
+    }
+}
+
+@keyframes hero-subcontainer {
+    0% {
+        width: 36%;
+        height: 74vh;
+        padding-bottom: 5%;
+    }
+    70% {
+        width: 36%;
+        height: 74vh;
+        padding-bottom: 5%;
+    }
+    100% {
+        width: 80%;
+        height: 74vh;
+    }
+}
+
+@keyframes hero-welcome-title {
+    0% {
+        margin-top: -15%;
+        opacity: 0;
+    }
+    50% {
+        margin-top: -15%;
+        opacity: 0;
+    }
+    60% {
+        margin-top: 0%;
         opacity: 1;
     }
 }
 
+@keyframes hero-welcome-header {
+    0% {
+        margin-left: -15%;
+        opacity: 0;
+    }
+    70% {
+        margin-left: -15%;
+        opacity: 0;
+    }
+    73% {
+        opacity: 0.4;
+    }
+    75% {
+        margin-left: 0%;
+        opacity: 1;
+    }
+}
+
+@keyframes hero-welcome-details {
+    0% {
+        opacity: 0;
+    }
+    95% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 
 .hero-subcontainer, .hero-subcontainer-dark {
     background-image: linear-gradient(90deg, #F0F8FF, #bde0ff);
     width: 80%;
+    height: 74vh;
+    padding-bottom: 2%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -32,6 +93,7 @@
     object-fit: contain;
     margin: 40px 100px auto 100px;
     border-radius: 20px;
+    animation: hero-subcontainer 2.5s ease 0s 1;
 }
 
 .hero-subcontainer-dark {
@@ -41,15 +103,15 @@
 .hero-welcome, .hero-welcome-dark {
     display: flex;
     flex-direction: column;
-    align-items: left;
     margin-left: 40px;
-    animation: hero-text-animation 0.2s ease 1s 1;
+    width: 50%;
 }
 
 .hero-welcome > h2, .hero-welcome-dark > h2 {
     color: #242424;
     font-size: 100px;
     left: auto;
+    animation: hero-welcome-title 5s ease 0s 1;
 }
 
 .hero-welcome-dark > h2 {
@@ -66,12 +128,22 @@
     color: #D3D3D3;
 }
 
+.hero-welcome-header {
+    animation: hero-welcome-header 6s ease 0s 1;
+}
+
+.hero-welcome-details {
+    animation: hero-welcome-details 7s ease 0s 1;
+}
+
 .hero-intro {
-    margin: 50px 50px 100px 50px;
+    margin: 5% 5% 10% 5%;
+    margin-bottom: 10%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    animation: hero-intro 2.5s ease 0s 1;
 }
 
 .hero-intro > img {
@@ -143,8 +215,10 @@
     color: #D3D3D3	;
 }
 
-
 @media screen and (max-width: 1200px) {
+    .hero-subcontainer {
+        height: 50vh;
+    }
     .hero-welcome > h2 {
         font-size: 80px;
     }
@@ -157,24 +231,28 @@
     .hero-welcome-explain {
         font-size: 16px;
     }
+    .hero-intro {
+        animation: hero-intro-animation 0s ease 0s 1;
+    }
     .hero-intro > img {
         width: 250px;
         height: 250px;
         margin-bottom: 18px;
     }
-    .hero-intro > p {
-        margin-top: 9px;
-        font-size: 18px;
-    }
     .hero-intro-name > h1, .hero-intro-name-dark > h1 {
-        font-size: 4vmin;
+        font-size: 24px;
     }
     .hero-intro-name > h2, .hero-intro-name-dark > h2 {
-        font-size: 3vmin;
+        margin-top: 9px;
+        margin-bottom: 100px;
+        font-size: 18px;
     }
 }
 
 @media screen and (max-width: 1100px) {
+    .hero-subcontainer {
+        height: 45vh;
+    }
     .hero-welcome > h2 {
         font-size: 60px;
     }
@@ -192,12 +270,13 @@
         height: 200px;
         margin-bottom: 16px;
     }
-    .hero-intro > p {
-        margin-top: 8px;
-        font-size: 16px;
+    .hero-intro-name > h1, .hero-intro-name-dark > h1 {
+        font-size: 24px;
     }
-    .hero-intro > h1 {
-        font-size: 35px;
+    .hero-intro-name > h2, .hero-intro-name-dark > h2 {
+        margin-top: 7px;
+        margin-bottom: 100px;
+        font-size: 16px;
     }
     .hero-intro {
         margin-right: 75px;
@@ -208,6 +287,9 @@
 }
 
 @media screen and (max-width: 900px) {
+    .hero-subcontainer {
+        height: 40vh;
+    }
     .hero-welcome > h2 {
         font-size: 50px;
     }
@@ -225,12 +307,12 @@
         height: 175px;
         margin-bottom: 14px;
     }
-    .hero-intro > h1 {
-        font-size: 30px;
+    .hero-intro-name > h1, .hero-intro-name-dark > h1 {
+        font-size: 20px;
     }
-    .hero-intro > p {
+    .hero-intro-name > h2 , .hero-intro-name-dark > h2{
         margin-top: 7px;
-        font-size: 14px;
+        font-size: 16px;
     }
     .btn-mobile {
         display: block;
@@ -329,21 +411,57 @@
     .hero-intro {
         margin-right: 35px;
     }
+    .hero-intro-name > h1, .hero-intro-name-dark > h1 {
+        font-size: 30px;
+    }
+    .hero-intro-name > h2 , .hero-intro-name-dark > h2{
+        margin-top: 7px;
+        font-size: 26px;
+    }
 }
 
 @media screen and (max-width: 600px) {
-    .hero-welcome {
+    .hero-subcontainer {
+        height: 45vh;
+    }
+    .hero-welcome, .hero-welcome-dark {
         margin-top: 50px;
+        display: none;
+    }
+
+    .hero-intro {
+        margin: 15vmin 30vmin 30vmin 30vmin;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-intro > img {
+        border-radius: 100%;
+        width: 50vmin;
+        height: 50vmin;
+        margin-bottom: 20px;
+        object-fit: cover;
+    }
+
+    .fa-linkedin, .fa-github, .fa-instagram, .fa-envelope {
+        font-size: 10vmin;
+        margin: 0px 15px;
+    }
+
+    .hero-links {
+        margin-top: 80px;
+        margin-bottom: -100px;
     }
 }
 
 @media screen and (max-width: 500px) {
-    .hero-welcome {
-        margin-top: 75px;
-        display: none;
+    .hero-subcontainer {
+        height: 50vh;
     }
 
-    .hero-welcome-dark {
+    .hero-welcome, .hero-welcome-dark {
         margin-top: 75px;
         display: none;
     }
