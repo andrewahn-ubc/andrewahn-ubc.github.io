@@ -129,11 +129,11 @@
 }
 
 .hero-welcome-header {
-    animation: hero-welcome-header 6s ease 0s 1;
+    animation: hero-welcome-header 5s ease 0s 1;
 }
 
 .hero-welcome-details {
-    animation: hero-welcome-details 7s ease 0s 1;
+    animation: hero-welcome-details 5.7s ease 0s 1;
 }
 
 .hero-intro {

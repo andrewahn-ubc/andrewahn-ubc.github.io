@@ -15,6 +15,7 @@ const Skills = () => {
                     <p>JavaScript</p>
                     <p>Java</p>
                     <p>C/C++</p>
+                    <p>Python</p>
                 </div>
 
                 <div className={brightness == 'light' ? "skills-column" : "skills-column-dark"} >
