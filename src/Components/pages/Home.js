@@ -1,8 +1,7 @@
 import React from 'react';
 import '../../App.css';
 import HeroSection from '../HeroSection';
-import Cards from '../Cards';
-import Footer from '../Footer';
+import Projects from '../Projects';
 import Skills from '../Skills';
 import { useBrightnessContext } from '../../Hooks/useBrightnessContext';
 
@@ -13,7 +12,7 @@ function Home() {
     <div className={brightness == 'light' ? 'home-wrapper' : 'home-wrapper-dark'}>
       <HeroSection />
       <Skills />
-      <Cards />
+      <Projects />
     </div>
   )
 }

@@ -10,10 +10,13 @@
 .skills-wrapper > h1, .skills-wrapper-dark > h1  {
     padding-left: 9vw;
     font-size: 32px;
+    color: #242424;
+    animation: text 11s ease 0s 1;
 }
 
 .skills-wrapper-dark > h1 {
     color: #C0C0C0;
+    animation: text-dark 11s ease 0s 1;
 }
 
 .skills, .skills-dark {
@@ -36,20 +39,24 @@
     font-size: 32px;
     margin-bottom: 24px;
     color: #242424;
+    animation: text 11s ease 0s 1;
 }
 
 .skills-column-dark > h1 {
-    color: #D3D3D3	;
+    color: #D3D3D3;
+    animation: text-dark 11s ease 0s 1;
 }
 
 .skills-column > p, .skills-column-dark > p {
     font-size: 20px;
     margin: 28px 0px;
     color: #242424;
+    animation: text 11s ease 0s 1;
 }
 
 .skills-column-dark > p {
-    color: #D3D3D3	;
+    color: #D3D3D3;
+    animation: text-dark 11s ease 0s 1;
 }
 
 @media screen and (max-width: 500px) {

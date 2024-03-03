@@ -1,10 +1,10 @@
 import React from 'react'
 import CardItem from '../Subcomponents/CardItem';
-import './Cards.css';
+import './Projects.css';
 import { useBrightnessContext } from '../Hooks/useBrightnessContext';
 
 // Reusable card component for displaying personal projects & meals.
-function Cards() {
+function Projects() {
     const { brightness } = useBrightnessContext()
 
     return (
@@ -79,4 +79,4 @@ function Cards() {
     )
 }
 
-export default Cards
+export default Projects

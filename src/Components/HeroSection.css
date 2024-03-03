@@ -291,6 +291,30 @@
     }
 }
 
+@keyframes text {
+    0% {
+        color: #F0F8FF;
+    }
+    60% {
+        color: #F0F8FF;
+    }
+    90% {
+        color: #242424;
+    }
+}
+
+@keyframes text-dark {
+    0% {
+        color: #F0F8FF;
+    }
+    60% {
+        color: #F0F8FF;
+    }
+    90% {
+        color: #D3D3D3;
+    }
+}
+
 
 
 /* Mobile-responsiveness! */

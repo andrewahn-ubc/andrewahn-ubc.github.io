@@ -5,15 +5,18 @@
 
 .cards-dark {
   padding: 0rem 2rem 2rem 2rem;
+  animation: home-background 11s ease 0s 1;
 }
 
 .cards > h1, .cards-dark > h1 {
   text-align: left;
   margin-left: 60px; 
+  animation: text 11s ease 0s 1;
 }
 
 .cards-dark > h1 {
-  color: #D3D3D3	;
+  color: #D3D3D3;
+  animation: text-dark 11s ease 0s 1;
 }
 
 .cards-container {
