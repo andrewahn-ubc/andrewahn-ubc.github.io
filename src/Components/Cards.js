@@ -20,35 +20,41 @@ function Cards() {
                             target='_blank'
                         />
                         <CardItem  
-                            src='images/study-sessions-wrapped-page.png'
-                            text='Study Sessions Wrapped'
-                            path="https://github.com/andrewahn-ubc/study-sessions-wrapped-v3"
+                            src='images/friendGen_homePage.png'
+                            text='FriendGen'
+                            path="https://github.com/andrewahn-ubc/friendGen"
                             target='_blank'
                         />  
                         <CardItem  
-                            src='images/connections.png'
-                            text='NYT Connections Clone'
-                            path="https://connections-nyt-25cdfbc7150a.herokuapp.com/"
+                            src='images/study-sessions-wrapped-page.png'
+                            text='Study Sessions Wrapped'
+                            path="https://github.com/andrewahn-ubc/study-sessions-wrapped-v3"
                             target='_blank'
                         />  
                     </ul>
 
                     <ul className="cards-items">
                         <CardItem  
+                            src='images/connections.png'
+                            text='NYT Connections Clone'
+                            path="https://connections-nyt-25cdfbc7150a.herokuapp.com/"
+                            target='_blank'
+                        />  
+                        <CardItem  
                             src='images/newWordleScreenshot.png'
-                            text='Wordle Clone!'
+                            text='Wordle Clone'
                             path="https://wordleclone-3314286f69fb.herokuapp.com/"
                             target='_blank'
                         />
                         <CardItem  
                             src='images/new-website.png'
-                            text='Personal Website'
+                            text='This Website lol'
                             path="https://github.com/andrewahn-ubc/first-react-website"
                             target='_blank'
                         />
                         <CardItem  
                             src='images/fresherPhoto4.png'
-                            text='Fresher'
+                            text='Food Expiration Date Tracker'
                             path="https://github.com/andrewahn-ubc/Fresher"
                             target='_blank'
                         />
