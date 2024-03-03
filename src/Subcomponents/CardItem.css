@@ -63,7 +63,17 @@
     z-index: 0;
 }
 
+@keyframes card-text {
+    0% {
+        margin-top: -67%;
+    }
+}
+
 .card-item:hover {
+    .card-text {
+        animation: card-text 0.5s linear 0s 1;
+    }
+
     .card-item-text, .card-item-text-dark {
         display: grid;
         z-index: 10;
@@ -83,7 +93,7 @@
     }
 
     .card-item-pic-wrap {
-        filter: brightness(20%);
+        filter: brightness(15%);
     }
 }
 
