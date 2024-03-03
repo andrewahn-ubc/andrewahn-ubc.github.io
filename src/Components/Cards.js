@@ -15,19 +15,25 @@ function Cards() {
                     <ul className="cards-items">
                         <CardItem  
                             src='images/logo.png'
-                            text='OurBoard'
+                            title='OurBoard'
+                            date='Jan 01, 2024'
+                            details='AR Bulletin Board'
                             path="https://devpost.com/software/ourboard "
                             target='_blank'
                         />
                         <CardItem  
                             src='images/friendGen_homePage.png'
-                            text='FriendGen'
+                            title='FriendGen'
+                            date='Jan 01, 2024'
+                            details='Insert an AI friend into your photo'
                             path="https://github.com/andrewahn-ubc/friendGen"
                             target='_blank'
                         />  
                         <CardItem  
                             src='images/study-sessions-wrapped-page.png'
-                            text='Study Sessions Wrapped'
+                            title='Study Sessions Wrapped'
+                            date='Jan 01, 2024'
+                            details='Get summary statistics of your study sessions'
                             path="https://github.com/andrewahn-ubc/study-sessions-wrapped-v3"
                             target='_blank'
                         />  
@@ -36,25 +42,33 @@ function Cards() {
                     <ul className="cards-items">
                         <CardItem  
                             src='images/connections.png'
-                            text='NYT Connections Clone'
+                            title='NYT Connections Clone'
+                            date='Jan 01, 2024'
+                            details=''
                             path="https://connections-nyt-25cdfbc7150a.herokuapp.com/"
                             target='_blank'
                         />  
                         <CardItem  
                             src='images/newWordleScreenshot.png'
-                            text='Wordle Clone'
+                            title='Wordle Clone'
+                            date='Jan 01, 2024'
+                            details=''
                             path="https://wordleclone-3314286f69fb.herokuapp.com/"
                             target='_blank'
                         />
                         <CardItem  
                             src='images/new-website.png'
-                            text='This Website lol'
+                            title='This Website lol'
+                            date='Jan 01, 2024'
+                            details=''
                             path="https://github.com/andrewahn-ubc/first-react-website"
                             target='_blank'
                         />
                         <CardItem  
                             src='images/fresherPhoto4.png'
-                            text='Food Expiration Date Tracker'
+                            title='Food Expiration Date Tracker'
+                            date='Jan 01, 2024'
+                            details=''
                             path="https://github.com/andrewahn-ubc/Fresher"
                             target='_blank'
                         />
