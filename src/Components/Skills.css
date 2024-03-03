@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: left;
     padding: 4vw 0vw 0vw 0vw;
+    animation: home-background 11s ease 0s 1;
 }
 
 .skills-wrapper > h1, .skills-wrapper-dark > h1  {

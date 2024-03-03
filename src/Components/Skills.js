@@ -7,7 +7,7 @@ const Skills = () => {
 
     return (
         <div className={brightness == 'light' ? "skills-wrapper" : "skills-wrapper-dark"}>
-            <h1>My tech stack:</h1>
+            <h1>My tech stack</h1>
 
             <div className={brightness == 'light' ? 'skills' : 'skills-dark'} >
                 <div className={brightness == 'light' ? "skills-column" : "skills-column-dark"} >
