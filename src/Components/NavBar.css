@@ -119,13 +119,17 @@
   border-radius: 20px;
   width: 36px;
   margin-left: 0px;
-  transition: margin-left 1s ease;
+  transition: margin-left 0.7s ease;
 }
 
 .fa-moon {
   color: #87ceeb;
   background: #352f44;
   margin-left: 40px;
+}
+
+.fa-sun:hover, .fa-moon:hover {
+  filter: brightness(120%);
 }
 
 .light-menu-button, .dark-menu-button {
