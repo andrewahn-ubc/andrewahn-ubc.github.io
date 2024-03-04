@@ -1,13 +1,26 @@
 .navbar {
-  background: #242424;
+  background-image: linear-gradient(90deg, #bde0ff, #F0F8FF);
   height: 80px;
   display: flex;
+  position: relative;
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
-  position: sticky;
   top: 0;
   z-index: 999;
+  animation: home-background-navbar 11s ease 0s 1;
+}
+
+@keyframes navbar {
+  0% {
+    top: -100px;
+  }
+  90% {
+    top: -100px;
+  }
+  100% {
+    top: 0px;
+  }
 }
 
 .navbar-container {
@@ -16,7 +29,11 @@
   justify-content: center;
   align-items: center;
   height: 80px;
-  max-width: 1500px;
+  width: 100%;
+  position: relative;
+  animation: navbar 10s ease 0s 1;
+  padding: none;
+  margin: 0px 0px;
 }
 
 .navbar-logo, .navbar-logo-dark  {
@@ -135,6 +152,18 @@
 .light-menu-button, .dark-menu-button {
   display: none;
 }
+
+@keyframes home-background-navbar {
+  0% {
+    filter: brightness(10%);
+  }
+  60% {
+    filter: brightness(10%);
+  }
+  90% {
+    filter: brightness(100%);
+  }
+}  
   
 @media screen and (max-width: 960px) {
   .nav-menu, .nav-menu-active {
