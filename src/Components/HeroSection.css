@@ -197,7 +197,6 @@
     0% {
         width: 36%;
         height: 74vh;
-        margin-top: 0px;
     }
     18% {
         width: 36%;
@@ -206,9 +205,6 @@
     25% {
         width: 80%;
         height: 74vh;
-    }
-    91.5% {
-        margin-top: 0px;
     }
 }
 
@@ -261,10 +257,10 @@
     0% {
         opacity: 0%;
     }
-    90% {
+    68% {
         opacity: 0%;
     }
-    100% {
+    78% {
         opacity: 100%;
     }
 }
@@ -273,10 +269,10 @@
     0% {
         margin-top: -20px;
     }
-    94% {
+    74% {
         margin-top: -20px;
     }
-    100% {
+    84% {
         margin-top: 20px;
     }
 }
