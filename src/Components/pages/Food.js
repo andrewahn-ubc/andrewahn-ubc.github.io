@@ -7,8 +7,8 @@ import { useBrightnessContext } from '../../Hooks/useBrightnessContext'
 export default function Food() {
     const { brightness } = useBrightnessContext()
     return (
-        <div className={brightness == 'light' ? "food" : "food-dark"}>
-            <div className={brightness == 'light' ? "foodIntro" : "foodIntro-dark"}>
+        <div className={brightness === 'light' ? "food" : "food-dark"}>
+            <div className={brightness === 'light' ? "foodIntro" : "foodIntro-dark"}>
                 <h1>Food</h1>
                 <h3 className="foodIntroSentence" >
                     Since moving out of dorms last year, my roommate and I have fallen in love with trying to 

@@ -10,8 +10,8 @@ function HeroSection() {
 
    return (
     <div className='hero-container'>
-        <div className={brightness == 'light' ? "hero-subcontainer" : 'hero-subcontainer-dark'}>
-            <div className={brightness == 'light' ? "hero-welcome" : "hero-welcome-dark"}>
+        <div className={brightness === 'light' ? "hero-subcontainer" : 'hero-subcontainer-dark'}>
+            <div className={brightness === 'light' ? "hero-welcome" : "hero-welcome-dark"}>
               <h2>Hi!</h2>
               <p className='hero-welcome-header'>
                 <br></br>
@@ -29,7 +29,7 @@ function HeroSection() {
           <div className="hero-intro">
               <img src='images/sus_headshot.jpg' />
               {/* My name being typed letter by letter! */}
-              <div className={brightness == 'light' ? "hero-intro-name" : "hero-intro-name-dark"}>
+              <div className={brightness === 'light' ? "hero-intro-name" : "hero-intro-name-dark"}>
                 <h1>My name is: <br></br></h1>
                 <h2>
                 <ReactTyped
@@ -55,7 +55,7 @@ function HeroSection() {
                      <Link className="github" to='https://github.com/andrewahn-ubc'
                       target='_blank'
                       aria-label='github'>
-                        <i className={brightness == 'light' ? 
+                        <i className={brightness === 'light' ? 
                         "fa-brands fa-github icon-light" : 
                         "fa-brands fa-github icon-dark"}></i>
                      </Link>
@@ -63,13 +63,13 @@ function HeroSection() {
                      <Link className="insta" to='https://www.instagram.com/andrew.4hn/'
                      target='_blank'
                      aria-label='insta'>
-                        <i className={brightness == 'light' ? 
+                        <i className={brightness === 'light' ? 
                         "fa-brands fa-instagram icon-light" : 
                         "fa-brands fa-instagram icon-dark"}></i>
                      </Link>
 
                      <a href="mailto:andrewahn21@gmail.com">
-                        <i className={brightness == 'light' ? 
+                        <i className={brightness === 'light' ? 
                         "fa-regular fa-envelope icon-light" : 
                         "fa-regular fa-envelope icon-dark"}></i>
                     </a>

@@ -6,11 +6,11 @@ const Skills = () => {
     const { brightness } = useBrightnessContext()
 
     return (
-        <div className={brightness == 'light' ? "skills-wrapper" : "skills-wrapper-dark"}>
+        <div className={brightness === 'light' ? "skills-wrapper" : "skills-wrapper-dark"}>
             <h1>My tech stack</h1>
 
-            <div className={brightness == 'light' ? 'skills' : 'skills-dark'} >
-                <div className={brightness == 'light' ? "skills-column" : "skills-column-dark"} >
+            <div className={brightness === 'light' ? 'skills' : 'skills-dark'} >
+                <div className={brightness === 'light' ? "skills-column" : "skills-column-dark"} >
                     <h1>Languages</h1>
                     <p>JavaScript</p>
                     <p>Java</p>
@@ -18,7 +18,7 @@ const Skills = () => {
                     <p>Python</p>
                 </div>
 
-                <div className={brightness == 'light' ? "skills-column" : "skills-column-dark"} >
+                <div className={brightness === 'light' ? "skills-column" : "skills-column-dark"} >
                     <h1>Backend</h1>
                     <p>Node</p>
                     <p>Express</p>
@@ -26,7 +26,7 @@ const Skills = () => {
                     <p>Heroku</p>
                 </div>
 
-                <div className={brightness == 'light' ? "skills-column" : "skills-column-dark"} >
+                <div className={brightness === 'light' ? "skills-column" : "skills-column-dark"} >
                     <h1>Frontend</h1>
                     <p>React</p>
                     <p>HTML/CSS</p>

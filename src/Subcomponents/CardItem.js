@@ -9,19 +9,19 @@ function CardItem(props) {
   return (
     <>
         <li className="card-item">
-            <Link className={brightness == 'light' ? "card-item-link" : "card-item-link-dark"} to={props.path} target='_blank'>
+            <Link className={brightness === 'light' ? "card-item-link" : "card-item-link-dark"} to={props.path} target='_blank'>
                 <div className="card-item-info">
                     <figure className="card-item-pic-wrap" data-category={props.label}>
                         <img src={props.src} alt="Loading" className="card-item-img" />
                     </figure>
                     <div className="card-text">
-                        <h1 className={brightness == 'light' ? "card-item-text" : "card-item-text-dark"}>
+                        <h1 className={brightness === 'light' ? "card-item-text" : "card-item-text-dark"}>
                             {props.title}
                         </h1>
-                        <h2 className={brightness == 'light' ? "card-item-date" : "card-item-date-dark"}>
+                        <h2 className={brightness === 'light' ? "card-item-date" : "card-item-date-dark"}>
                             {props.date}
                         </h2>
-                        <h2 className={brightness == 'light' ? "card-item-details" : "card-item-details-dark"}>
+                        <h2 className={brightness === 'light' ? "card-item-details" : "card-item-details-dark"}>
                             {props.details}
                         </h2>
                     </div>

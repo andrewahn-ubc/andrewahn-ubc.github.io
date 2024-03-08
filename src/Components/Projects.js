@@ -8,7 +8,7 @@ function Projects() {
     const { brightness } = useBrightnessContext()
 
     return (
-        <div className={brightness == 'light' ? 'cards' : 'cards-dark'}>
+        <div className={brightness === 'light' ? 'cards' : 'cards-dark'}>
             <h1>My projects</h1>
             <div className="cards-container">
                 <div className="cards-wrapper">

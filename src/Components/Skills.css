@@ -33,6 +33,7 @@
 .skills-column, .skills-column-dark {
     padding: 2vw 3vw 0vw 3vw;
     margin: 2vw;
+    height: 50vmin;
 }
 
 .skills-column > h1, .skills-column-dark > h1 {
@@ -49,9 +50,15 @@
 
 .skills-column > p, .skills-column-dark > p {
     font-size: 20px;
-    margin: 28px 0px;
+    margin: 40px 0px;
     color: #242424;
     animation: text 11s ease 0s 1;
+}
+
+.skills-column > p:hover, .skills-column-dark > p:hover {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 40px 0px -5.5px 0px;
 }
 
 .skills-column-dark > p {
