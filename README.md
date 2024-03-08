@@ -1,7 +1,8 @@
-# Welcome to my personal website!
+# This is my personal website!
+Built with React!
 
-To run, run "npm start" in terminal.
 
 ## TODO
-- Restyling the hero section to be more visually appealing.
-- Adding click->description funcitonality to card items.
+- Fix the bug where the text in the skills and projects sections are white after switching from dark mode to light mode using React logic.
+- Add food descriptions.
+- Make the food card items lead to the food page once clicked.
