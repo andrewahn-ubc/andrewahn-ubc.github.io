@@ -34,6 +34,7 @@
     padding: 2vw 3vw 0vw 3vw;
     margin: 2vw;
     height: 50vmin;
+    width: 40vmin;
 }
 
 .skills-column > h1, .skills-column-dark > h1 {
@@ -64,6 +65,12 @@
 .skills-column-dark > p {
     color: #D3D3D3;
     animation: text-dark 11s ease 0s 1;
+}
+
+.techLogo {
+    width: 28px;
+    margin-left: -10px;
+    margin-bottom: -6px;
 }
 
 @media screen and (max-width: 500px) {
