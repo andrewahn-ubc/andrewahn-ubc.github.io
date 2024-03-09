@@ -26,7 +26,7 @@ const Skills = () => {
                     <p>Heroku &nbsp; <img src={"images/heroku.png"} alt="Loading" className="techLogo"></img></p>
                 </div>
 
-                <div className={brightness === 'light' ? "skills-column" : "skills-column-dark"} >
+                <div className={brightness === 'light' ? "skills-column frontend" : "skills-column-dark frontend"} >
                     <h1>Frontend</h1>
                     <p>React &nbsp; <img src={"images/react.png"} alt="Loading" className="techLogo"></img></p>
                     <p>HTML/CSS &nbsp; <img src={"images/html.png"} alt="Loading" className="techLogo"></img>

@@ -37,6 +37,10 @@
     width: 40vmin;
 }
 
+.frontend {
+    margin-left: -1vw;
+}
+
 .skills-column > h1, .skills-column-dark > h1 {
     font-size: 32px;
     margin-bottom: 24px;
@@ -54,12 +58,13 @@
     margin: 40px 0px;
     color: #242424;
     animation: text 11s ease 0s 1;
+    width: 200px;
 }
 
 .skills-column > p:hover, .skills-column-dark > p:hover {
     font-size: 24px;
     font-weight: 700;
-    margin: 40px 0px -5.5px 0px;
+    margin: 42px 0px -3.5px 0px;
 }
 
 .skills-column-dark > p {
