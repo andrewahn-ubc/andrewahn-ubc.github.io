@@ -14,6 +14,14 @@ function Projects() {
                 <div className="cards-wrapper">
                     <ul className="cards-items">
                         <CardItem  
+                            src='images/equihealth1.png'
+                            title='EquiHealth'
+                            date='April 06, 2024'
+                            details='Set healthy habits, Duolingo-style'
+                            path="https://github.com/zayan-sheikh/equihealth"
+                            target='_blank'
+                        />  
+                        <CardItem  
                             src='images/friendGen_homePage.png'
                             title='FriendGen'
                             date='March 01, 2024'
@@ -29,6 +37,9 @@ function Projects() {
                             path="https://devpost.com/software/ourboard "
                             target='_blank'
                         />
+                    </ul>
+
+                    <ul className="cards-items">
                         <CardItem  
                             src='images/study-sessions-wrapped-page.png'
                             title='Study Sessions Wrapped'
@@ -37,9 +48,6 @@ function Projects() {
                             path="https://github.com/andrewahn-ubc/study-sessions-wrapped-v3"
                             target='_blank'
                         />  
-                    </ul>
-
-                    <ul className="cards-items">
                         <CardItem  
                             src='images/connections.png'
                             title='Connections'
@@ -47,7 +55,10 @@ function Projects() {
                             details='Clone of NYT Connections'
                             path="https://connections-nyt-25cdfbc7150a.herokuapp.com/"
                             target='_blank'
-                        />  
+                        /> 
+                    </ul>
+
+                    <ul className="cards-items"> 
                         <CardItem  
                             src='images/newWordleScreenshot.png'
                             title='Wordle'
