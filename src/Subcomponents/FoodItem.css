@@ -1,11 +1,11 @@
-.card-item {
+.food-item {
     display: flex;
     flex: 1;
     margin: 0 1rem;
     border-radius: 10px;
 }
 
-.card-item-link, .card-item-link-dark {
+.food-item-link, .food-item-link-dark {
     display: flex;
     flex-flow: column;
     width: 100%;
@@ -17,13 +17,13 @@
     text-decoration: none;
 }
 
-.card-item-link-dark {
+.food-item-link-dark {
     box-shadow: 0 6px 20px #202020;
     -webkit-filter: drop-shadow(0 6px 20px #202020);
     filter: drop-shadow(0 6px 20px #202020);
 }
 
-.card-item-pic-wrap {
+.food-item-pic-wrap {
     position: relative;
     width: 100%;
     padding-top: 67%;
@@ -31,7 +31,7 @@
     z-index: 0;
 }
 
-.card-item-pic-wrap::after {
+.food-item-pic-wrap::after {
     position: absolute;
     bottom: 0;
     margin-left: 10px;
@@ -45,7 +45,7 @@
     z-index: 0;
 }
 
-.card-item-img {
+.food-item-img {
     position: absolute;
     top: 0;
     right: 0;
@@ -63,7 +63,7 @@
     z-index: 0;
 }
 
-.card-item-text, .card-item-text-dark {
+.food-item-text, .food-item-text-dark {
     color: #F0F8FF;
     font-size: 22px;
     line-height: 24px;
@@ -72,7 +72,7 @@
     width: 90%;
 }
 
-.card-item-details, .card-item-details-dark {
+.food-item-details, .food-item-details-dark {
     color: #F0F8FF;
     font-size: 16px;
     line-height: 24px;
@@ -81,7 +81,7 @@
     display: none;
 }
 
-.card-item-date, .card-item-date-dark {
+.food-item-date, .food-item-date-dark {
     color: #6495ED;
     font-size: 16px;
     line-height: 24px;
@@ -90,38 +90,38 @@
     display: none;
 }
 
-.card-item:hover {
-    .card-text {
-        animation: card-text 0.5s linear 0s 1;
+.food-item:hover {
+    .food-text {
+        animation: food-text 0.5s linear 0s 1;
     }
 
-    .card-item-text, .card-item-text-dark {
+    .food-item-text, .food-item-text-dark {
         display: grid;
         z-index: 10;
         position: relative;
     }
 
-    .card-item-date, .card-item-date-dark {
+    .food-item-date, .food-item-date-dark {
         display: grid;
         z-index: 10;
         position: relative;
     }
 
-    .card-item-details, .card-item-details-dark {
+    .food-item-details, .food-item-details-dark {
         display: grid;
         z-index: 10;
         position: relative;
         /* margin-bottom: calc((100%) - 300px); */
-        /* margin-bottom: calc(44% - 40px); */
+        margin-bottom: calc(44% - 40px);
         width: 90%;
     }
 
-    .card-item-pic-wrap {
+    .food-item-pic-wrap {
         filter: brightness(15%);
     }
 }
 
-@keyframes card-text {
+@keyframes food-text {
     0% {
         margin-top: -65%;
     }
