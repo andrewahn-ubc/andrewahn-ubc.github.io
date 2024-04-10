@@ -69,6 +69,7 @@
     line-height: 24px;
     display: none;
     margin: -58% -10% 5% 5%;
+    width: 90%;
 }
 
 .card-item-details, .card-item-details-dark {
@@ -110,6 +111,9 @@
         display: grid;
         z-index: 10;
         position: relative;
+        /* margin-bottom: calc((100%) - 300px); */
+        margin-bottom: calc(44% - 40px);
+        width: 90%;
     }
 
     .card-item-pic-wrap {

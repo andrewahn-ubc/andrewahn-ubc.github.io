@@ -25,7 +25,7 @@ function Projects() {
                             src='images/friendGen_homePage.png'
                             title='FriendGen'
                             date='March 01, 2024'
-                            details='Insert an friend into your photo using generative AI!'
+                            details='Insert friends into your photo using generative AI!'
                             path="https://github.com/andrewahn-ubc/friendGen"
                             target='_blank'
                         />  

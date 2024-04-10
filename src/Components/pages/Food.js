@@ -21,34 +21,34 @@ export default function Food() {
             </div>
             
             <ul className="foodList">
-                <CardItem path="/" src="Food/army_stew.jpg" title="Korean Army Stew" date='Jan 01, 2024' details=''/>
-                <CardItem path="/" src="Food/burrito_cheese.jpg" title="Cheese-Coated Burrito" date='Jan 01, 2024' details=''/>
-                <CardItem path="/" src="Food/pork_belly_in_pan.jpg" title="Samgyeopssal (pork belly kbbq)" date='Jan 01, 2024' details=''/>
+                <CardItem path="/food" src="Food/army_stew.jpg" title="Korean Army Stew" date='Jan 01, 2024' details=''/>
+                <CardItem path="/food" src="Food/burrito_cheese.jpg" title="Cheese-Coated Burrito" date='Jan 01, 2024' details=''/>
+                <CardItem path="/food" src="Food/pork_belly_in_pan.jpg" title="Pork Belly kbbq" date='Jan 01, 2024' details=''/>
             </ul>
 
             <ul className="foodList">
-                <CardItem path="/" src="Food/first_steak_bite.jpg" title="Flank Steak" date='Jan 01, 2024' details=''/>
-                <CardItem path="/" src="Food/nacho_bite.jpg" title="Nachos" date='Jan 01, 2024' details=''/>
+                <CardItem path="/food" src="Food/first_steak_bite.jpg" title="Flank Steak" date='Jan 01, 2024' details=''/>
+                <CardItem path="/food" src="Food/nacho_bite.jpg" title="Nachos" date='Jan 01, 2024' details=''/>
             </ul>
 
             <ul className="foodList">
-                <CardItem path="/" src="Food/dumplings.jpg" title="Dumplings" date='Jan 01, 2024' details=''/>
-                <CardItem path="/" src="Food/fusilli_carbo.jpg" title="Carbonara" date='Jan 01, 2024' details=''/>
-                <CardItem path="/" src="Food/shakshukka_closeup.jpg" title="Shaksukka" date='Jan 01, 2024' details=''/>
-                <CardItem path="/" src="Food/burrito_bowl.jpg" title="Chipotle Bowl" date='Jan 01, 2024' details=''/>
+                <CardItem path="/food" src="Food/dumplings.jpg" title="Dumplings" date='Jan 01, 2024' details=''/>
+                <CardItem path="/food" src="Food/fusilli_carbo.jpg" title="Carbonara" date='Jan 01, 2024' details=''/>
+                <CardItem path="/food" src="Food/shakshukka_closeup.jpg" title="Shaksukka" date='Jan 01, 2024' details=''/>
+                <CardItem path="/food" src="Food/burrito_bowl.jpg" title="Chipotle Bowl" date='Jan 01, 2024' details=''/>
             </ul>
 
             <ul className="foodList">
-                <CardItem path="/" src="Food/mabo_tofu.jpg" title="Mabo Tofu" date='Jan 01, 2024' details=''/>
-                <CardItem path="/" src="Food/kfc.jpg" title=" KFC (Korean Fried Chicken)" date='Jan 01, 2024' details=''/>
-                <CardItem path="/" src="Food/chicken_fried_rice.jpg" title="Crispy Chicken + Fried Rice" date='Jan 01, 2024' details=''/>
+                <CardItem path="/food" src="Food/mabo_tofu.jpg" title="Mabo Tofu" date='Jan 01, 2024' details=''/>
+                <CardItem path="/food" src="Food/kfc.jpg" title=" KFC (Korean Fried Chicken)" date='Jan 01, 2024' details=''/>
+                <CardItem path="/food" src="Food/chicken_fried_rice.jpg" title="Crispy Chicken + Fried Rice" date='Jan 01, 2024' details=''/>
             </ul>
 
             <ul className="foodList">
-                <CardItem path="/" src="Food/macaroni_meatballs.jpg" title="Pasta + Meatchunks?" date='Jan 01, 2024' details=''/>
-                <CardItem path="/" src="Food/kimchi_pancake.jpg" title="Kimchi Pancakes" date='Jan 01, 2024' details=''/>
-                <CardItem path="/" src="Food/oyakodon_bowl.jpg" title="Oyakodon" date='Jan 01, 2024' details=''/>
-                <CardItem path="/" src="Food/beef_pepper_lunch.jpg" title="Beef Pepper Lunch" date='Jan 01, 2024' details=''/>
+                <CardItem path="/food" src="Food/macaroni_meatballs.jpg" title="Pasta + meatballs" date='Jan 01, 2024' details=''/>
+                <CardItem path="/food" src="Food/kimchi_pancake.jpg" title="Kimchi Pancakes" date='Jan 01, 2024' details=''/>
+                <CardItem path="/food" src="Food/oyakodon_bowl.jpg" title="Oyakodon" date='Jan 01, 2024' details=''/>
+                <CardItem path="/food" src="Food/beef_pepper_lunch.jpg" title="Beef Pepper Lunch" date='Jan 01, 2024' details=''/>
             </ul>
         </div>
     )

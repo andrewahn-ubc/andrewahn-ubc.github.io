@@ -122,7 +122,7 @@
     display: flex;
     justify-content: space-evenly;
     width: 80%;
-    margin: 20px auto -80px auto;
+    margin: 10% 15% -25% auto;
     animation: hero-links 11s ease 0s 1;
 }
 
