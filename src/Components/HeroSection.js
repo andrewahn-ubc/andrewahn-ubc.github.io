@@ -16,7 +16,7 @@ function HeroSection() {
               <p className='hero-welcome-header'>
                 <br></br>
                 <br></br>
-                I'm Andrew (he/him), a 2nd-year undergrad at UBC Computer Science. 
+                I'm Andrew (he/him), a 3rd-year Computer Science + Math student at UBCV. 
                 <br></br>
                 <br></br>
               </p>

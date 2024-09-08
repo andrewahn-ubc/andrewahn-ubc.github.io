@@ -23,12 +23,12 @@ const Skills = () => {
                     <p>Node &nbsp; <img src={"images/node.png"} alt="Loading" className="techLogo"></img></p>
                     <p>Express &nbsp; <img src={"images/express.png"} alt="Loading" className="techLogo"></img></p>
                     <p>MongoDB &nbsp; <img src={"images/mongo.png"} alt="Loading" className="techLogo"></img></p>
-                    <p>Heroku &nbsp; <img src={"images/heroku.png"} alt="Loading" className="techLogo"></img></p>
+                    <p>OAuth &nbsp; <img src={"images/heroku.png"} alt="Loading" className="techLogo"></img></p>
                 </div>
 
                 <div className={brightness === 'light' ? "skills-column frontend" : "skills-column-dark frontend"} >
                     <h1>Frontend</h1>
-                    <p>React &nbsp; <img src={"images/react.png"} alt="Loading" className="techLogo"></img></p>
+                    <p>React (+Native) &nbsp; <img src={"images/react.png"} alt="Loading" className="techLogo"></img></p>
                     <p>HTML/CSS &nbsp; <img src={"images/html.png"} alt="Loading" className="techLogo"></img>
                     &nbsp; <img src={"images/css.png"} alt="Loading" className="techLogo"></img></p>
                 </div>

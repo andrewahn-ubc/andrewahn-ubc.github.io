@@ -7,7 +7,7 @@ export default function Resume() {
 
     return (
         <div className={brightness === 'light' ? 'resume' : 'resume-dark'}>
-            <iframe className='document' src="AndrewAhn.pdf" title='resume' width="70%" height="500px" />
+            <iframe className='document' src="AndrewAhnSep2024.pdf" title='resume' width="70%" height="500px" />
         </div>
     )
 };
