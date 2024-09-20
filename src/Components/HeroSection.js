@@ -16,7 +16,7 @@ function HeroSection() {
               <p className='hero-welcome-header'>
                 <br></br>
                 <br></br>
-                I'm Andrew (he/him), a 3rd-year Computer Science + Math student at UBCV. 
+                I'm Andrew (he/him), a 3rd-year CS + Math student at UBCV. 
                 <br></br>
                 <br></br>
               </p>
@@ -27,7 +27,7 @@ function HeroSection() {
             </div>
 
           <div className="hero-intro">
-              <img src='images/sus_headshot.jpg' />
+              <img src='images/picOfMeSep2024.jpg' />
               {/* My name being typed letter by letter! */}
               <div className={brightness === 'light' ? "hero-intro-name" : "hero-intro-name-dark"}>
                 <h1>My name is: <br></br></h1>
