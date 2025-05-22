@@ -27,7 +27,7 @@ function HeroSection() {
             </div>
 
           <div className="hero-intro">
-              <img src='images/picOfMeSep2024.jpg' />
+              <img src='images/headshot.jpg' alt="headshot"/>
               {/* My name being typed letter by letter! */}
               <div className={brightness === 'light' ? "hero-intro-name" : "hero-intro-name-dark"}>
                 <h1>My name is: <br></br></h1>
