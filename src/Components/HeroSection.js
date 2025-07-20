@@ -16,14 +16,14 @@ function HeroSection() {
               <p className='hero-welcome-header'>
                 <br></br>
                 <br></br>
-                I'm Andrew (he/him), a 3rd-year CS + Math student at UBCV. 
+                I'm Andrew (he/him), a 4th-year CS + Math student at UBC Vancouver. 
                 <br></br>
                 <br></br>
               </p>
-              <p className='hero-welcome-details'>
+              {/* <p className='hero-welcome-details'>
                 <br></br>
                 Scroll along to see more!
-              </p>
+              </p> */}
             </div>
 
           <div className="hero-intro">

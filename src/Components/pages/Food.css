@@ -27,7 +27,7 @@
     width: 85vw;
     margin: 4vw 2vw 2vw 2vw;
     padding: 2vw 2vw 2vw 4vw;
-    background-image: linear-gradient(90deg, #F0F8FF, #bde0ff);
+    /* background-image: linear-gradient(90deg, #F0F8FF, #bde0ff); */
     color: #242424;
     border-radius: 20px;
 }
@@ -36,7 +36,7 @@
     width: 85vw;
     margin: 4vw 2vw 2vw 2vw;
     padding: 2vw 2vw 2vw 4vw;
-    background-image: linear-gradient(90deg, #352f44, #5c5470);
+    /* background-image: linear-gradient(90deg, #352f44, #5c5470); */
     color: #D3D3D3;
     border-radius: 20px;
 }

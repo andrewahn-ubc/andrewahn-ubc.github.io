@@ -10,14 +10,6 @@ export default function Food() {
         <div className={brightness === 'light' ? "food" : "food-dark"}>
             <div className={brightness === 'light' ? "foodIntro" : "foodIntro-dark"}>
                 <h1>Food</h1>
-                <h3 className="foodIntroSentence" >
-                    Since moving out of dorms last year, my roommate and I have fallen in love with trying to 
-                    make our favourite meals at home.
-                    We're still amateurs, but I feel quite proud of our meals so I thought I'd share some of 
-                    my favourites here :)
-                </h3>
-
-                <p>(please excuse our dirty stove)</p>
             </div>
             
             <ul className="foodList">

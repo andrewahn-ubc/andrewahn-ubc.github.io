@@ -11,8 +11,8 @@ function Home() {
   return (
     <div className={brightness === 'light' ? 'home-wrapper' : 'home-wrapper-dark'}>
       <HeroSection />
-      <Skills />
-      <Projects />
+      {/* <Skills />
+      <Projects /> */}
     </div>
   )
 }

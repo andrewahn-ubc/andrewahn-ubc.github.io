@@ -44,22 +44,22 @@ function NavBar() {
                     Home
                   </Link>
                 </li>
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <Link to='/resume' className={brightness === 'light' ? "nav-links" : "nav-links-dark"} onClick={switchMenu}>
                     Resume
                   </Link>
-                </li>
+                </li> */}
                 <li className="nav-item">
                   <Link to='/food' className={brightness === 'light' ? "nav-links" : "nav-links-dark"} onClick={switchMenu}>
                     Food
                   </Link>
                 </li>
 
-                <button className={brightness === 'light' ? 'light-button' : 'dark-button'} onClick={handleDarkModeClick}>
+                {/* <button className={brightness === 'light' ? 'light-button' : 'dark-button'} onClick={handleDarkModeClick}>
                   <div className={brightness === 'light' ? "toggle-container" : "toggle-container-dark"}>
                     <i class={brightness === 'light' ? "fa-regular fa-sun" : "fa-regular fa-moon"}></i>
                   </div>
-                </button>
+                </button> */}
               </ul>
             </div>
         </nav>
