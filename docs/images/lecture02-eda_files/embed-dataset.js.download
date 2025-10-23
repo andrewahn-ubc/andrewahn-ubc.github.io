@@ -1,0 +1,30 @@
+(function() {
+    "use strict";
+
+    var mod = angular.module('ods.frontend');
+
+    mod.controller('DispatchController', ['$location', '$window', function($location, $window) {
+        // This controller's only purpose is to wait for its initialization, then tries to determine if this is an attempt
+        // to display an embed using a tab= parameter in the hash instead of a GET parameter. This could happen with very very old
+        // embed link (there are probably none left), if someone with IE8/IE9 created an embed,
+        // or if someone uses a share link transmitted by an IE8/IE9 user.
+        var tab = $location.search().tab || $location.path().substr(1, $location.path().length-2);
+        var url = $window.location.pathname;
+        if ($location.path() && $window.location.pathname.lastIndexOf(tab) == $window.location.pathname.length - tab.length) {
+            url = url.substr(0, $window.location.pathname.lastIndexOf(tab));
+        }
+
+        var params;
+        if (tab) {
+            params = $location.search();
+            delete params.tab;
+            url += tab+'/?' + ODS.URLUtils.getAPIQueryString(params);
+            //$window.location.href = $location.path() + '?' + ODS.URLUtils.getAPIQueryString($location.search());
+        } else {
+            params = $location.search();
+            url +=  'table/?' + ODS.URLUtils.getAPIQueryString(params);
+        }
+
+        $window.location.href = url;
+    }]);
+}());
